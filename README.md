@@ -199,6 +199,8 @@ Procedural memory → System prompts, skills, rules
 | [Braintrust](https://braintrustdata.com) | — | 80x faster evals, dataset management | Evaluation-driven development |
 | [Helicone](https://github.com/Helicone/helicone) | 4K+ | Gateway-based, no SDK changes needed | Drop-in observability, any provider |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 6K+ | Open source, LLM evals, embeddings | ML teams, explainability |
+| [traceAI](https://github.com/future-agi/traceAI) | 100+ | OpenTelemetry-native, 50+ framework integrations | OTel-aligned LLM and agent tracing |
+| [Future AGI](https://github.com/future-agi/future-agi) | 1K+ | Self-hostable end-to-end platform with tracing, evals, guardrails, gateway | Teams wanting one open-source stack |
 
 ### What to Observe
 
@@ -219,6 +221,7 @@ Procedural memory → System prompts, skills, rules
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | 4K+ | Conversation rails, topic control | NVIDIA stack, conversation safety |
 | [LLM Guard](https://github.com/laiyer-ai/llm-guard) | 3K+ | Prompt sanitization, PII detection | Enterprise compliance |
 | [Rebuff](https://github.com/woop/rebuff) | 2K+ | Prompt injection detection, heuristic + ML | Injection-aware deployments |
+| [ai-evaluation](https://github.com/future-agi/ai-evaluation) | 100+ | 50+ eval metrics, LLM-as-Judge, guardrail scanners (jailbreak, PII, injection) | Eval-driven guardrails and CI |
 
 ### Key Threat Vectors (2026)
 
