@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#161A30"/>
+  <circle cx="1120" cy="80" r="260" fill="#7C3AED" opacity=".22"/>
+  <circle cx="90" cy="590" r="220" fill="#F59E0B" opacity=".18"/>
+  <rect x="72" y="72" width="1136" height="496" rx="36" fill="#ffffff" opacity=".055" stroke="#ffffff" stroke-opacity=".18"/>
+  <text x="116" y="168" fill="#F59E0B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Docs / github.com</text>
+  <text x="116" y="288" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Awesome Ai Agents 2025</text>
+  <text x="120" y="362" fill="#FAFAFA" opacity=".82" font-family="Inter, Arial, sans-serif" font-size="28">Awesome Ai Agents 2025 is a curated developer index for finding high-leverage AI t</text>
+  <text x="120" y="470" fill="#FAFAFA" opacity=".72" font-family="Inter, Arial, sans-serif" font-size="24">Quickstart • AGENTS.md • social preview • repo polish</text>
+  <circle cx="1010" cy="320" r="170" fill="none" stroke="#F59E0B" stroke-width="8" opacity=".8"/><circle cx="1010" cy="320" r="95" fill="none" stroke="#7C3AED" stroke-width="8"/><path d="M1010 320l150-80" stroke="#F59E0B" stroke-width="14" stroke-linecap="round"/><circle cx="1160" cy="240" r="20" fill="#F59E0B"/>
+</svg>
