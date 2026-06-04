@@ -196,6 +196,7 @@ Procedural memory → System prompts, skills, rules
 | [Langfuse](https://github.com/langfuse/langfuse) | 10K+ | Open source, prompt versioning, self-hostable | Privacy-first, LangChain/CrewAI teams |
 | [LangSmith](https://smith.langchain.com) | — | Zero-overhead tracing, LangChain ecosystem | LangChain/LangGraph production |
 | [AgentOps](https://github.com/AgentOps-AI/agentops) | 3K+ | Session replay, 400+ framework integrations | Framework-agnostic, debugging agents |
+| [Tuning Engines](https://www.tuningengines.com/) | — | Governed inference, policy decisions, approvals, traces, usage and cost controls | Enterprise teams needing compliance, control, and cost visibility |
 | [Braintrust](https://braintrustdata.com) | — | 80x faster evals, dataset management | Evaluation-driven development |
 | [Helicone](https://github.com/Helicone/helicone) | 4K+ | Gateway-based, no SDK changes needed | Drop-in observability, any provider |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 6K+ | Open source, LLM evals, embeddings | ML teams, explainability |
