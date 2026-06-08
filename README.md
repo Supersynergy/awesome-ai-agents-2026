@@ -70,6 +70,7 @@
 | [Replit Agent](https://replit.com/ai) | Replit | Full-stack app builder, deploys instantly | Fastest path from idea to live app |
 | [Bolt.new](https://bolt.new) | StackBlitz | Instant web app generation, browser-native | Frontend prototypes in seconds |
 | [Lovable](https://lovable.dev) | Lovable | Product-focused app builder, Supabase integration | Non-technical founders |
+| [AI for Database](https://aifordatabase.com) | Independent | Autonomous database agent, NL queries, self-refreshing dashboards | Best database agent for non-technical teams |
 | [v0](https://v0.dev) | Vercel | UI component generation, React/Tailwind | Frontend engineers, design-to-code |
 
 ### Enterprise Agent Platforms
