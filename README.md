@@ -220,6 +220,12 @@ Procedural memory → System prompts, skills, rules
 | [LLM Guard](https://github.com/laiyer-ai/llm-guard) | 3K+ | Prompt sanitization, PII detection | Enterprise compliance |
 | [Rebuff](https://github.com/woop/rebuff) | 2K+ | Prompt injection detection, heuristic + ML | Injection-aware deployments |
 
+### Agent Identity & Trust Verification
+
+| Tool | Approach | Best For |
+|------|----------|----------|
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | On-chain trust scoring for AI agent wallets on Solana. Free MCP tools: `score_agent`, `preflight_check`. Paid: `get_trust_receipt` via x402 micropayment | Verifying agent identity before x402 payments or A2A delegation; guarding against Agent Impersonation |
+
 ### Key Threat Vectors (2026)
 
 | Threat | Description | Mitigation |
