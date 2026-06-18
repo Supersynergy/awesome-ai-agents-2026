@@ -374,3 +374,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 **Last updated: March 2026** | [Report an issue](https://github.com/Supersynergy/awesome-ai-agents-2025/issues) | [Request addition](https://github.com/Supersynergy/awesome-ai-agents-2025/issues/new)
+
+- [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) — Local encrypted vault for AI agent API keys with AES-256-GCM, Gun.js P2P sync, zero cloud
