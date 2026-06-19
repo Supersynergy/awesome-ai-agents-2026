@@ -199,6 +199,7 @@ Procedural memory → System prompts, skills, rules
 | [Braintrust](https://braintrustdata.com) | — | 80x faster evals, dataset management | Evaluation-driven development |
 | [Helicone](https://github.com/Helicone/helicone) | 4K+ | Gateway-based, no SDK changes needed | Drop-in observability, any provider |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 6K+ | Open source, LLM evals, embeddings | ML teams, explainability |
+| [Future AGI](https://github.com/future-agi/future-agi) | 1k+ | Open source, 70+ eval metrics, LLM-as-judge, OpenTelemetry tracing | Simulate, evaluate, guardrail, optimize agents |
 
 ### What to Observe
 
