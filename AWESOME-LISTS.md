@@ -24,6 +24,15 @@ The local project is branded **Awesome AI Agents**. The previous dated checkout 
 - **Freshness needs explicit flags:** comparison lists contain archived, unverified, stale, or promotional entries. This repository keeps those out of the core snapshot unless independently verified.
 - **YouTube is discovery only:** current videos repeatedly discuss agentic coding workflows, MCP versus APIs/skills, and local coding setups. Video popularity is not an inclusion criterion.
 
+## Discovery and context sources
+
+| Source | Role | Safe interpretation |
+|---|---|---|
+| [GitStars.io trending API](https://gitstars.io/api/trending) via `ghmax --gitstars` | Star-velocity and momentum discovery | Strong candidate signal; noisy feed, never a quality score |
+| Tool Radar (`/Users/master/BASE/projects/awesome-indexer`) | Local Gitstars/ghmax/DuckLake ranking and feature map | Use ranked snapshot plus upstream verification |
+| Superweb CLI (`superweb`) | Current web search and primary-source retrieval | Search accelerator; source page remains evidence |
+| [Synapse](https://github.com/Supersynergy/synapse) | Local cited memory and bounded context packs | Context layer, not a public popularity metric |
+
 ## Official protocol and ecosystem sources
 
 | Source | Purpose |
@@ -50,6 +59,6 @@ Before copying an entry into an awesome list, check:
 
 ## Audit trail
 
-See [docs/UPDATE-2026-07-14.md](docs/UPDATE-2026-07-14.md) for the exact comparison commits, Tool Radar run, Superweb retrieval, GitHub metadata snapshot, and YouTube fallback limits.
+See [docs/UPDATE-2026-07-14.md](docs/UPDATE-2026-07-14.md) for the exact comparison commits, Tool Radar run, Superweb retrieval, GitHub metadata snapshot, and YouTube fallback limits. See the [gap audit](docs/GAP-AUDIT-2026-07-14.md) for Synapse, ZeroClaw, the new runtime family, ACP, skills, and GitStars.io coverage.
 
 **Last updated: 14 July 2026**

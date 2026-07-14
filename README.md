@@ -22,7 +22,7 @@
 | Ship code with an agent | [Codex](https://github.com/openai/codex), [Claude Code](https://github.com/anthropics/claude-code), [OpenCode](https://github.com/anomalyco/opencode), [Gemini CLI](https://github.com/google-gemini/gemini-cli) | sandbox, tests, review gate |
 | Connect tools and data | [MCP](https://modelcontextprotocol.io/specification/latest) | allowlists, auth, audit logs |
 | Delegate between agents | [A2A](https://a2a-protocol.org/latest/) | capability cards, typed artifacts, timeouts |
-| Give agents durable context | [Mem0](https://github.com/mem0ai/mem0), [Letta](https://github.com/letta-ai/letta), [Cognee](https://github.com/topoteretes/cognee) | retention, deletion, provenance |
+| Give agents durable context | [Synapse](https://github.com/Supersynergy/synapse), [Mem0](https://github.com/mem0ai/mem0), [Letta](https://github.com/letta-ai/letta) | retention, deletion, provenance |
 | Prove that it works | [Terminal-Bench](https://github.com/harbor-framework/terminal-bench), [BrowserGym](https://github.com/ServiceNow/BrowserGym), [SWE-bench](https://github.com/SWE-bench/SWE-bench) | traces, cost, human intervention |
 
 ## Frontier radar
@@ -47,8 +47,8 @@ flowchart LR
 | **Open interoperability** | Tool access and agent-to-agent collaboration are separating into complementary protocol layers: MCP and A2A. | [MCP specification](https://modelcontextprotocol.io/specification/latest), [A2A specification](https://a2a-protocol.org/latest/specification/), [Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation?hs_amp=true) |
 | **Computer Use** | GUI interaction is becoming a general action surface alongside APIs and terminals; reliability and safety remain first-class engineering problems. | [OpenAI CUA](https://openai.com/index/computer-using-agent/), [OpenCUA](https://github.com/xlang-ai/OpenCUA), [BrowserGym](https://github.com/ServiceNow/BrowserGym) |
 | **Stateful memory** | Memory is moving from “paste more context” to explicit state, retrieval, temporal reasoning, and long-lived agent identity. | [Mem0 memory algorithm](https://github.com/mem0ai/mem0), [Letta](https://github.com/letta-ai/letta), [Letta Code](https://github.com/letta-ai/letta-code) |
-| **Environment-first evals** | Agent quality is being measured by completed tasks in real terminals, browsers, and repositories—not by chat transcripts alone. | [Terminal-Bench](https://github.com/laude-institute/terminal-bench), [BrowserGym](https://github.com/ServiceNow/BrowserGym), [SWE-bench](https://github.com/SWE-bench/SWE-bench) |
-| **Governed autonomy** | Sandboxes, approval gates, telemetry, and misalignment monitoring are becoming part of the agent runtime itself. | [Running Codex safely](https://openai.com/index/running-codex-safely/), [monitoring coding agents](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/), [E2B](https://github.com/e2b-dev/E2B), [Daytona](https://github.com/daytonaio/daytona) |
+| **Environment-first evals** | Agent quality is being measured by completed tasks in real terminals, browsers, and repositories—not by chat transcripts alone. | [Terminal-Bench](https://github.com/harbor-framework/terminal-bench), [BrowserGym](https://github.com/ServiceNow/BrowserGym), [SWE-bench](https://github.com/SWE-bench/SWE-bench) |
+| **Governed autonomy** | Sandboxes, approval gates, telemetry, and misalignment monitoring are becoming part of the agent runtime itself. | [Running Codex safely](https://openai.com/index/running-codex-safely/), [monitoring coding agents](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/), [E2B](https://github.com/e2b-dev/E2B) |
 
 For the detailed research notes, source links, and evidence boundaries, see [Frontier breakthroughs](docs/FRONTIER-BREAKTHROUGHS-2026-07-14.md).
 
@@ -58,16 +58,17 @@ For the detailed research notes, source links, and evidence boundaries, see [Fro
 2. [Agent runtimes and platforms](#agent-runtimes-and-platforms)
 3. [Coding agents](#coding-agents)
 4. [Protocols and standards](#protocols-and-standards)
-5. [Multi-agent patterns](#multi-agent-patterns)
-6. [Agent memory](#agent-memory)
-7. [Observability and evaluation](#observability-and-evaluation)
-8. [Security and guardrails](#security-and-guardrails)
-9. [Voice agents](#voice-agents)
-10. [Deployment and sandboxing](#deployment-and-sandboxing)
-11. [Knowledge and retrieval](#knowledge-and-retrieval)
-12. [Live signals](#live-signals)
-13. [Related awesome lists](#related-awesome-lists)
-14. [Contributing](#contributing)
+5. [Agent skills and repo context](#agent-skills-and-repo-context)
+6. [Multi-agent patterns](#multi-agent-patterns)
+7. [Agent memory](#agent-memory)
+8. [Observability and evaluation](#observability-and-evaluation)
+9. [Security and guardrails](#security-and-guardrails)
+10. [Voice agents](#voice-agents)
+11. [Deployment and sandboxing](#deployment-and-sandboxing)
+12. [Knowledge and retrieval](#knowledge-and-retrieval)
+13. [Live signals](#live-signals)
+14. [Related awesome lists](#related-awesome-lists)
+15. [Contributing](#contributing)
 
 ## Agent frameworks
 
@@ -96,6 +97,20 @@ For the detailed research notes, source links, and evidence boundaries, see [Fro
 | [v0](https://v0.dev/) | Hosted | UI and application generation |
 | [Lovable](https://lovable.dev/) | Hosted | Product-oriented application prototyping |
 
+### Lightweight and always-on runtimes
+
+Current GitHub snapshots checked **14 July 2026**. Stars indicate attention, not reliability.
+
+| Runtime | Stars | Language / shape | Best fit |
+|---|---:|---|---|
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | 214.8K | Python / local agent | Personal workflows, skills, browser use, and long-lived learning |
+| [nanobot](https://github.com/HKUDS/nanobot) | 45.6K | Python / lightweight | Small open-source agent for tools, chats, and workflows |
+| [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | 32.3K | Rust / single binary | Low-overhead personal assistant with channels, MCP, memory, ACP, and policy gates |
+| [NanoClaw](https://github.com/nanocoai/nanoclaw) | 30.2K | TypeScript / containers | OpenClaw-like channels with container isolation and memory |
+| [PicoClaw](https://github.com/sipeed/picoclaw) | 29.8K | Go / tiny runtime | Small hardware and deploy-anywhere assistant scenarios |
+| [IronClaw](https://github.com/nearai/ironclaw) | 12.5K | Rust / Agent OS | Privacy, security, and extensibility as the runtime boundary |
+| [NullClaw](https://github.com/nullclaw/nullclaw) | 7.8K | Zig / minimal runtime | Small autonomous assistant infrastructure |
+
 ## Coding agents
 
 | Agent | Stars snapshot | Interface | Strength |
@@ -123,8 +138,20 @@ For the detailed research notes, source links, and evidence boundaries, see [Fro
 | [Agent2Agent (A2A)](https://a2a-protocol.org/latest/) | Discover, delegate, and exchange artifacts between opaque agents |
 | [OpenAI function calling](https://platform.openai.com/docs/guides/function-calling) | Structured tool calls and schema-constrained actions |
 | [Anthropic tool use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) | Model-directed tools and structured results |
+| [Agent Client Protocol (ACP)](https://github.com/agentclientprotocol/agent-client-protocol) | Connect editors and agent runtimes through a common protocol |
+| [AGENTS.md](https://github.com/agentsmd/agents.md) | Portable repository guidance for coding agents |
 
 **Mental model:** MCP is the agent-to-tool boundary. A2A is the agent-to-agent boundary. They solve different problems and compose cleanly.
+
+## Agent skills and repo context
+
+| Project | Role |
+|---|---|
+| [Superpowers](https://github.com/obra/superpowers) | Agentic skills framework and software-development methodology |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Interactive codebase knowledge graph for Claude Code, Codex, Cursor, Copilot, and Gemini CLI |
+| [AGENTS.md](https://github.com/agentsmd/agents.md) | Keep project-specific constraints, workflows, and safety context close to the repository |
+
+Skills are executable context, not decoration: prefer scoped permissions, explicit stop conditions, and a testable outcome.
 
 ## Multi-agent patterns
 
@@ -147,6 +174,7 @@ Production rule: define a closed task, machine-checkable oracle, maximum step co
 | [Letta](https://github.com/letta-ai/letta) | 23.8K | Stateful agents and editable long-term memory |
 | [Cognee](https://github.com/topoteretes/cognee) | 27.8K | Self-hosted knowledge graph and persistent agent memory |
 | [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 8.8K | Agent-memory storage and retrieval patterns |
+| [Synapse](https://github.com/Supersynergy/synapse) | — | Local-first cited memory, decisions, context packs, and recovery checkpoints in SQLite |
 
 Memory is a product decision, not a vector-store checkbox: define retention, deletion, tenant boundaries, provenance, and recovery before shipping.
 
@@ -188,7 +216,14 @@ Sandbox untrusted code. Treat model output as data until a policy layer validate
 
 ## Knowledge and retrieval
 
-[Qdrant](https://github.com/qdrant/qdrant) · [pgvector](https://github.com/pgvector/pgvector) · [Haystack](https://github.com/deepset-ai/haystack) · [DSPy](https://github.com/stanfordnlp/dspy) · [LlamaIndex](https://github.com/run-llama/llama_index)
+| Tool | Focus |
+|---|---|
+| [Qdrant](https://github.com/qdrant/qdrant) | Filterable vector search and retrieval |
+| [pgvector](https://github.com/pgvector/pgvector) | Vector search inside PostgreSQL |
+| [Haystack](https://github.com/deepset-ai/haystack) | Modular search, RAG, and agent pipelines |
+| [DSPy](https://github.com/stanfordnlp/dspy) | Programmatic prompt and LM optimisation |
+| [LlamaIndex](https://github.com/run-llama/llama_index) | Data connectors, indexing, and retrieval workflows |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Codebase graph and interactive repository understanding for agent workflows |
 
 Choose storage by deletion semantics, tenant isolation, filter support, provenance, and operational cost—not by embedding demos alone.
 
@@ -197,6 +232,8 @@ Choose storage by deletion semantics, tenant isolation, filter support, provenan
 This section is deliberately separate from the curated core.
 
 - **Tool Radar:** the latest usable ranked snapshot put [OpenClaw](https://github.com/openclaw/openclaw) at the top of the `agent-ai` lane and [OpenCode](https://github.com/anomalyco/opencode) at the top of the `coding-agent` lane; [Chorus](https://github.com/chorus-codes/chorus) appeared as an emerging review workflow.
+- **GitStars.io:** the live [trending API](https://gitstars.io/api/trending) was refreshed at 18:29 UTC with reliable metrics. `ghmax --gitstars` uses this star-velocity lane; its feed also contains unrelated or low-quality repositories, so every candidate still needs upstream and relevance checks.
+- **Synapse:** local-first memory is now a first-class category through [Supersynergy/synapse](https://github.com/Supersynergy/synapse), alongside hosted/stateful memory systems.
 - **GitHub:** star counts above are dated adoption signals, not quality scores. Verify upstream activity before choosing.
 - **Comparison lists:** [E2B](https://github.com/e2b-dev/awesome-ai-agents), [Deep-Insight-Labs](https://github.com/Deep-Insight-Labs/awesome-ai-agents), [Zijian-Ni](https://github.com/Zijian-Ni/awesome-ai-agents-2026), [caramaschiHG](https://github.com/caramaschiHG/awesome-ai-agents-2026), [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code), and [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) were cross-checked.
 - **YouTube:** current discovery clusters around agentic engineering, MCP versus APIs/skills, agent teams, and local terminal workflows. Video popularity is discovery only, never inclusion evidence.
