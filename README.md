@@ -23,7 +23,7 @@
 | Connect tools and data | [MCP](https://modelcontextprotocol.io/specification/latest) | allowlists, auth, audit logs |
 | Delegate between agents | [A2A](https://a2a-protocol.org/latest/) | capability cards, typed artifacts, timeouts |
 | Give agents durable context | [Mem0](https://github.com/mem0ai/mem0), [Letta](https://github.com/letta-ai/letta), [Cognee](https://github.com/topoteretes/cognee) | retention, deletion, provenance |
-| Prove that it works | [Terminal-Bench](https://github.com/laude-institute/terminal-bench), [BrowserGym](https://github.com/ServiceNow/BrowserGym), [SWE-bench](https://github.com/SWE-bench/SWE-bench) | traces, cost, human intervention |
+| Prove that it works | [Terminal-Bench](https://github.com/harbor-framework/terminal-bench), [BrowserGym](https://github.com/ServiceNow/BrowserGym), [SWE-bench](https://github.com/SWE-bench/SWE-bench) | traces, cost, human intervention |
 
 ## Frontier radar
 
@@ -157,7 +157,7 @@ Memory is a product decision, not a vector-store checkbox: define retention, del
 | [Langfuse](https://github.com/langfuse/langfuse) | Open-source traces, evals, prompts, datasets, and metrics |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | AI observability and evaluation |
 | [OpenTelemetry](https://opentelemetry.io/) | Vendor-neutral traces, metrics, and logs |
-| [Terminal-Bench](https://github.com/laude-institute/terminal-bench) | Real terminal tasks with tests and execution harness |
+| [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) | Real terminal tasks with tests and execution harness |
 | [BrowserGym](https://github.com/ServiceNow/BrowserGym) | Web-agent research across browser benchmarks |
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | Reproducible software-engineering tasks |
 

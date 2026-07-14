@@ -62,7 +62,7 @@ These are synthesis statements from the sources below. They are not claims that 
 
 | Benchmark / environment | Scope |
 |---|---|
-| [Terminal-Bench](https://github.com/laude-institute/terminal-bench) | Complicated terminal tasks with an execution harness, tests, and reference solutions. |
+| [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) | Complicated terminal tasks with an execution harness, tests, and reference solutions. |
 | [BrowserGym](https://github.com/ServiceNow/BrowserGym) | Web-agent research across multiple browser task families and environments. |
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | Repository-level software-engineering tasks with a concrete patch/evaluation target. |
 | [OSWorld](https://github.com/xlang-ai/OSWorld) | Open-ended computer tasks in real operating-system environments. |
