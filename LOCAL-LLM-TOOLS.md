@@ -1,5 +1,7 @@
 # Local LLM Tools - Complete Guide
 
+> **Freshness note (14 July 2026):** The detailed tables below are from an earlier maintenance pass. Use the dated [current README](README.md) for the maintained shortlist and check upstream release notes before installation.
+
 A comprehensive guide to tools for running large language models locally on your own hardware.
 
 ## Table of Contents

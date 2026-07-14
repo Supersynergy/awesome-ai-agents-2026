@@ -1,5 +1,7 @@
 # Latest Models 2025 - Comprehensive Local Running Guide
 
+> **Historical guide:** This document is retained for older local-running examples. It is not the current model inventory. Use the dated [current README](README.md) and verify model names in the upstream runtime before downloading anything.
+
 A complete guide to running the latest AI models locally, including hardware requirements, quantization options, and optimization tips.
 
 ## Table of Contents

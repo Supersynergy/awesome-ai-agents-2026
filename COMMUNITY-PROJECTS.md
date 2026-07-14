@@ -1,5 +1,7 @@
 # Community Projects - Real-World Local Agent Implementations
 
+> **Historical snapshot:** This long-form catalog contains older project descriptions and is not a current activity ranking. Use the dated [current README](README.md) and [update audit](docs/UPDATE-2026-07-14.md) for current entries.
+
 A collection of community-built local AI agent projects, tutorials, and production deployments for inspiration and learning.
 
 ## Table of Contents

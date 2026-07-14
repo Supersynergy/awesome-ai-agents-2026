@@ -1,5 +1,7 @@
 # AI Agent Frameworks - Detailed Guide
 
+> **Freshness note (14 July 2026):** This is a legacy deep guide with versioned examples from earlier maintenance passes. Use the dated [current README](README.md) and [update audit](docs/UPDATE-2026-07-14.md) for the maintained inventory.
+
 A comprehensive breakdown of frameworks for building local AI agents, including features, use cases, installation, and examples.
 
 ## Table of Contents
