@@ -4,8 +4,8 @@
   <circle cx="90" cy="590" r="220" fill="#F97316" opacity=".18"/>
   <rect x="72" y="72" width="1136" height="496" rx="36" fill="#ffffff" opacity=".055" stroke="#ffffff" stroke-opacity=".18"/>
   <text x="116" y="168" fill="#F97316" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Docs / github.com</text>
-  <text x="116" y="288" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Awesome Ai Agents 2025</text>
-  <text x="120" y="362" fill="#ECFEFF" opacity=".82" font-family="Inter, Arial, sans-serif" font-size="28">Awesome Ai Agents 2025 is a curated developer index for finding high-leverage AI t</text>
-  <text x="120" y="470" fill="#ECFEFF" opacity=".72" font-family="Inter, Arial, sans-serif" font-size="24">Quickstart • AGENTS.md • social preview • repo polish</text>
+  <text x="116" y="288" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Awesome AI Agents</text>
+  <text x="120" y="362" fill="#ECFEFF" opacity=".82" font-family="Inter, Arial, sans-serif" font-size="28">Reason • tools • execution • evidence.</text>
+  <text x="120" y="470" fill="#ECFEFF" opacity=".72" font-family="Inter, Arial, sans-serif" font-size="24">Frameworks • coding agents • MCP/A2A • memory • evals</text>
   <rect x="850" y="160" width="260" height="170" rx="26" fill="#14B8A6" opacity=".95"/><rect x="930" y="265" width="260" height="170" rx="26" fill="#F97316" opacity=".95"/><rect x="785" y="335" width="260" height="150" rx="26" fill="#ECFEFF" opacity=".16"/>
 </svg>

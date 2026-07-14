@@ -1,7 +1,7 @@
 <!-- REPO-POLISH-AGENTS:START -->
 # AGENTS.md
 
-Awesome Ai Agents 2025 is a curated developer index for finding high-leverage AI tools fast.
+Awesome AI Agents is a curated developer index for finding high-leverage AI tools fast.
 
 ## Commands
 
@@ -15,4 +15,3 @@ Awesome Ai Agents 2025 is a curated developer index for finding high-leverage AI
 - Add or update tests when behavior changes.
 - Put durable architecture rationale in `docs/adr/`.
 <!-- REPO-POLISH-AGENTS:END -->
-

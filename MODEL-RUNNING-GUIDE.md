@@ -1,4 +1,6 @@
-# Latest Models 2025 - Comprehensive Local Running Guide
+# Model Running Guide
+
+> Historical local-model notes retained for reference. The maintained current index is [Awesome AI Agents](README.md); verify model names, versions, and hardware guidance against upstream sources before use.
 
 > **Historical guide:** This document is retained for older local-running examples. It is not the current model inventory. Use the dated [current README](README.md) and verify model names in the upstream runtime before downloading anything.
 

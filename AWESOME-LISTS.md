@@ -2,6 +2,8 @@
 
 This file is the cross-list index for the current README. It was checked on **14 July 2026**. Use it for recall; verify current status in the upstream repository before adopting a tool.
 
+The local project is branded **Awesome AI Agents**. The previous dated checkout name is intentionally removed from the maintained surface; historical dates remain only where they describe a source or release.
+
 ## Current comparison lists
 
 | Repository | Focus | Freshness signal observed |
@@ -32,6 +34,8 @@ This file is the cross-list index for the current README. It was checked on **14
 | [OpenTelemetry](https://opentelemetry.io/) | Vendor-neutral traces, metrics, and logs |
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | Software-engineering agent evaluation |
 | [Hugging Face Agents course](https://huggingface.co/learn/agents-course) | Agent concepts and practical exercises |
+
+For the latest capability synthesis, see [Frontier breakthroughs](docs/FRONTIER-BREAKTHROUGHS-2026-07-14.md).
 
 ## Selection checklist
 
