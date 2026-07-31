@@ -44,16 +44,16 @@
 | [AG2](https://github.com/ag2ai/ag2) | 7K+ | Community AutoGen fork, faster releases | AutoGen users wanting community-driven roadmap |
 | [LangChain](https://github.com/langchain-ai/langchain) | 116K+ | Massive ecosystem, 1000+ integrations | Prototyping, integration-heavy workflows |
 | [Agno](https://github.com/agno-agi/agno) | 35K+ | Multimodal agents, runtime + control plane | Multimodal tasks, agent observability |
-| [Composio](https://github.com/composio/composio) | 27K+ | 100+ tool integrations, MCP support | Tool-heavy agents, SaaS automation |
+| [Composio](https://github.com/ComposioHQ/composio) | 27K+ | 100+ tool integrations, MCP support | Tool-heavy agents, SaaS automation |
 
 ### Local / Open-Source Runtimes
 
 | Framework | Stars | Key Feature | Best For |
 |-----------|-------|-------------|----------|
-| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | 56K+ | Natural language → code execution | Local automation, full OS control |
+| [Open Interpreter](https://github.com/openinterpreter/openinterpreter) | 56K+ | Natural language → code execution | Local automation, full OS control |
 | [Dify](https://github.com/langgenius/dify) | 60K+ | Visual workflow builder, self-hosted | Teams wanting GUI agent builder |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | 32K+ | Drag-and-drop node editor | Low-code agent building |
-| [Goose](https://github.com/block/goose) | 10K+ | Block's extensible agent, MCP-native | Developer automation on local machines |
+| [Goose](https://github.com/aaif-goose/goose) | 10K+ | Block's extensible agent, MCP-native | Developer automation on local machines |
 
 ---
 
@@ -93,8 +93,8 @@
 | [Cline](https://github.com/cline/cline) | 28K+ | VS Code extension, any model, MCP | Open source, model-agnostic, community |
 | [Aider](https://github.com/Aider-AI/aider) | 25K+ | Terminal, git-aware, pair programming | CLI users, git-native, repo-wide edits |
 | [Continue.dev](https://github.com/continuedev/continue) | 20K+ | Open source, any model, VS Code + JetBrains | Privacy-first, self-hosted model support |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 65K+ | Docker-isolated, web UI, MIT license | Sandboxed execution, evaluation benchmarks |
-| [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | 15K+ | Princeton, ACI interface, benchmark-driven | Research, SWE-bench evaluation |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | 65K+ | Docker-isolated, web UI, MIT license | Sandboxed execution, evaluation benchmarks |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | 15K+ | Princeton, ACI interface, benchmark-driven | Research, SWE-bench evaluation |
 | [GitHub Copilot Agent](https://github.com/features/copilot) | — | Tight GitHub integration, code review, PR summaries | GitHub-native workflows |
 | [Codex CLI](https://github.com/openai/codex) | 18K+ | Sandboxed execution, terminal, multimodal | OpenAI-native, safe local execution |
 | [Amp](https://ampcode.com) | — | Sourcegraph-backed, repo-wide context | Large monorepo navigation |
@@ -130,7 +130,7 @@ Client → MCP Server → Tool/DB/API
 
 ### A2A — Agent-to-Agent Protocol
 
-[github.com/google/A2A](https://github.com/google/A2A) | Google | **100+ partners** | Linux Foundation project
+[github.com/a2aproject/A2A](https://github.com/a2aproject/A2A) | Google | **100+ partners** | Linux Foundation project
 
 - Open protocol for agent-to-agent communication, independent of internal architecture
 - Agent Cards: JSON discovery files (/.well-known/agent.json)
@@ -216,9 +216,9 @@ Procedural memory → System prompts, skills, rules
 | Tool | Stars | Approach | Best For |
 |------|-------|----------|----------|
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | 5K+ | Validators on input/output, retry logic | Structured output validation |
-| [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | 4K+ | Conversation rails, topic control | NVIDIA stack, conversation safety |
-| [LLM Guard](https://github.com/laiyer-ai/llm-guard) | 3K+ | Prompt sanitization, PII detection | Enterprise compliance |
-| [Rebuff](https://github.com/woop/rebuff) | 2K+ | Prompt injection detection, heuristic + ML | Injection-aware deployments |
+| [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | 4K+ | Conversation rails, topic control | NVIDIA stack, conversation safety |
+| [LLM Guard](https://github.com/protectai/llm-guard) | 3.2K, archived | Prompt sanitization, PII detection | Enterprise compliance, but no longer maintained |
+| [Rebuff](https://github.com/protectai/rebuff) | 1.5K, archived | Prompt injection detection, heuristic + ML | Injection-aware deployments, but no longer maintained |
 
 ### Key Threat Vectors (2026)
 
@@ -334,12 +334,11 @@ Procedural memory → System prompts, skills, rules
 |------|-------|-------|
 | [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 24K+ | Broad AI agents ecosystem |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 18K+ | MCP server directory |
-| [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 16K+ | Real-world agent projects |
-| [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 8K+ | LLM-powered agents research |
-| [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 7K+ | LangChain ecosystem |
-| [awesome-local-llm](https://github.com/continuum-llms/chatgpt-memory) | 5K+ | Local model running |
-| [awesome-openai-agents](https://github.com/openai/openai-agents-python) | 12K+ | OpenAI Agents SDK examples |
-| [awesome-agentic-coding](https://github.com/nicholasgasior/awesome-agentic-coding) | 3K+ | Coding agent tools |
+| [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 35.5K | Real-world agent projects |
+| [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 1.5K | LLM-powered agents research |
+| [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 9.5K | LangChain ecosystem |
+| [awesome-local-llm](https://github.com/rafska/awesome-local-llm) | 2.5K | Local model running |
+| [awesome-openai-agents](https://github.com/openai/openai-agents-python) | 28.3K | OpenAI Agents SDK examples |
 
 ---
 
@@ -373,4 +372,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-**Last updated: March 2026** | [Report an issue](https://github.com/Supersynergy/awesome-ai-agents-2025/issues) | [Request addition](https://github.com/Supersynergy/awesome-ai-agents-2025/issues/new)
+**Curated March 2026. Links, star counts and archive status re-checked on 31 July 2026; the benchmark and pricing tables still carry their March numbers.** | [Report an issue](https://github.com/Supersynergy/awesome-ai-agents-2025/issues) | [Request addition](https://github.com/Supersynergy/awesome-ai-agents-2025/issues/new)
