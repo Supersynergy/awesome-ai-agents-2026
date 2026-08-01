@@ -193,10 +193,10 @@ Production rule: define a closed task, machine-checkable oracle, maximum step co
 
 | Tool | Stars snapshot | Focus |
 |---|---:|---|
-| [Mem0](https://github.com/mem0ai/mem0) | 60.8K | Cross-session memory, temporal retrieval, and agent context |
-| [Letta](https://github.com/letta-ai/letta) | 23.8K | Stateful agents and editable long-term memory |
-| [Cognee](https://github.com/topoteretes/cognee) | 27.8K | Self-hosted knowledge graph and persistent agent memory |
-| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 8.8K | Agent-memory storage and retrieval patterns |
+| [Mem0](https://github.com/mem0ai/mem0) | 62.3K | Cross-session memory, temporal retrieval, and agent context |
+| [Letta](https://github.com/letta-ai/letta) | 24.0K | Stateful agents and editable long-term memory |
+| [Cognee](https://github.com/topoteretes/cognee) | 29.7K | Self-hosted knowledge graph and persistent agent memory |
+| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 10.3K | Agent-memory storage and retrieval patterns |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 27.7K | Filesystem-shaped context database for memory, RAG, and skills |
 | [Synapse](https://github.com/Supersynergy/synapse-memory) | 1 | Local-first cited memory, decisions, context packs, and recovery checkpoints in SQLite |
 
@@ -206,12 +206,12 @@ Memory is a product decision, not a vector-store checkbox: define retention, del
 
 | Tool / benchmark | Focus |
 |---|---|
-| [Langfuse](https://github.com/langfuse/langfuse) | Open-source traces, evals, prompts, datasets, and metrics |
-| [Arize Phoenix](https://github.com/Arize-ai/phoenix) | AI observability and evaluation |
+| [Langfuse](https://github.com/langfuse/langfuse) | 32.3K; open-source traces, evals, prompts, datasets, and metrics |
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 10.9K; AI observability and evaluation |
 | [OpenTelemetry](https://opentelemetry.io/) | Vendor-neutral traces, metrics, and logs |
-| [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) | Real terminal tasks with tests and execution harness |
-| [BrowserGym](https://github.com/ServiceNow/BrowserGym) | Web-agent research across browser benchmarks |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | Reproducible software-engineering tasks |
+| [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) | 2.5K; real terminal tasks with tests and execution harness |
+| [BrowserGym](https://github.com/ServiceNow/BrowserGym) | 1.3K; web-agent research across browser benchmarks |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | 5.5K; reproducible software-engineering tasks |
 | [Mission Control](https://github.com/builderz-labs/mission-control) | Agent operations, dispatch, review, and spend tracking |
 
 Track task success, tool success, latency, token cost, retries, human interventions, and unsafe-action attempts. A transcript alone is not an evaluation.

@@ -7,6 +7,7 @@ A collection of community-built local AI agent projects, tutorials, and producti
 ## Table of Contents
 
 - [Current Shortlist (2 August 2026)](#current-shortlist-2-august-2026)
+- [Historical project examples](#historical-project-examples)
 - [Community-Built Agents](#community-built-agents)
 - [Open-Source Implementations](#open-source-implementations)
 - [Tutorial Projects](#tutorial-projects)
