@@ -1,12 +1,12 @@
 # Community Projects - Real-World Local Agent Implementations
 
-> **Historical snapshot:** This long-form catalog contains older project descriptions and is not a current activity ranking. Use the dated [current README](README.md) and [update audit](docs/UPDATE-2026-07-14.md) for current entries.
+> **Freshness boundary (2 August 2026):** The live shortlist below was checked against official GitHub metadata. The tutorial and implementation sections remain intentionally long-form examples; they are not a current activity ranking. Use the [current README](README.md) and [update audit](docs/UPDATE-2026-08-02.md) for current entries.
 
 A collection of community-built local AI agent projects, tutorials, and production deployments for inspiration and learning.
 
 ## Table of Contents
 
-- [Trending GitHub Projects](#trending-github-projects)
+- [Current Shortlist (2 August 2026)](#current-shortlist-2-august-2026)
 - [Community-Built Agents](#community-built-agents)
 - [Open-Source Implementations](#open-source-implementations)
 - [Tutorial Projects](#tutorial-projects)
@@ -16,13 +16,51 @@ A collection of community-built local AI agent projects, tutorials, and producti
 
 ---
 
-## Trending GitHub Projects
+## Current Shortlist (2 August 2026)
+
+Stars are GitHub snapshots from the update pass, not quality scores. These projects were selected because they have a concrete agent job, an active upstream repository, and a current signal from ghmax or the comparison-list pass.
+
+### Developer tools and coding-agent operations
+
+| Project | Stars | Description | Stack |
+|---------|-------|-------------|-------|
+| [OpenCode](https://github.com/anomalyco/opencode) | 192.0K | Open-source, model-agnostic coding agent | TypeScript |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | 82.8K | Autonomous software-development workflows | Python |
+| [Open Interpreter](https://github.com/openinterpreter/openinterpreter) | 67.5K | Code-capable agent for open models | Rust |
+| [CodeGraph](https://github.com/colbymchenry/codegraph) | 63.9K | Local code knowledge graph for coding agents | C |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) | 26.5K | Open-source terminal coding agent | TypeScript |
+| [Beads](https://github.com/gastownhall/beads) | 25.8K | Persistent work and memory layer for coding agents | Go |
+
+### Runtimes, workspaces, and orchestration
+
+| Project | Stars | Description | Stack |
+|---------|-------|-------------|-------|
+| [OpenClaw](https://github.com/openclaw/openclaw) | 384.8K | Self-hosted personal assistant with channels and skills | TypeScript |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | 223.8K | Long-lived local agent with skills and learning | Python |
+| [nanobot](https://github.com/HKUDS/nanobot) | 46.5K | Lightweight self-hosted agent with tools, memory, MCP, and chat apps | Python |
+| [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | 32.5K | Small Rust personal-assistant infrastructure | Rust |
+| [herdr](https://github.com/herdrdev/herdr) | 23.4K | Runtime and workspace manager for coding-agent fleets | Rust |
+| [Kun](https://github.com/KunAgent/Kun) | 5.5K | Local-first GUI/TUI workspace for coding, writing, and research | TypeScript |
+| [Mission Control](https://github.com/builderz-labs/mission-control) | 5.9K | Self-hosted dispatch, review, operations, and spend tracking | TypeScript |
+
+### Sandboxing, context, and security
+
+| Project | Stars | Description | Stack |
+|---------|-------|-------------|-------|
+| [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | 12.3K | Secure sandbox runtime with agent, browser, and Kubernetes examples | Python |
+| [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) | 7.9K | Policy-governed private runtime for agents; alpha software | Rust |
+| [OpenViking](https://github.com/volcengine/OpenViking) | 27.7K | Filesystem-shaped context database for memory, RAG, and skills | Python |
+| [Snyk Agent Scan](https://github.com/snyk/agent-scan) | 2.8K | Scans agent components, MCP servers, and skills for threats | Python |
+
+---
+
+## Historical project examples
 
 ### Developer Tools
 
 | Project | Stars | Description | Stack |
 |---------|-------|-------------|-------|
-| [aider](https://github.com/paul-gauthier/aider) | 35K+ | AI pair programming in terminal | Python, LangChain |
+| [aider](https://github.com/Aider-AI/aider) | 47.9K | AI pair programming in terminal | Python |
 | [gpt-engineer](https://github.com/gpt-engineer-org/gpt-engineer) | 51K+ | AI code generation from specs | Python |
 | [devika](https://github.com/stitionai/devika) | 18K+ | Agentic AI software engineer | Python, LangChain |
 | [continue](https://github.com/continuedev/continue) | 25K+ | Open-source AI code assistant | TypeScript |
@@ -599,4 +637,4 @@ Brief description of what it does.
 
 ---
 
-Last Updated: November 2025
+Last Updated: 2 August 2026; historical examples are retained for tutorial continuity.

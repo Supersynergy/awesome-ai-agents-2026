@@ -1,6 +1,6 @@
 # Awesome Lists and Comparison Sources
 
-This file is the cross-list index for the current README. It was checked on **14 July 2026**. Use it for recall; verify current status in the upstream repository before adopting a tool.
+This file is the cross-list index for the current README. It was checked on **2 August 2026** with Superweb, ghmax, GitHub metadata, and a read-only PUM refresh. Use it for recall; verify current status in the upstream repository before adopting a tool.
 
 The local project is branded **Awesome AI Agents**. The previous dated checkout name is intentionally removed from the maintained surface; historical dates remain only where they describe a source or release.
 
@@ -8,19 +8,23 @@ The local project is branded **Awesome AI Agents**. The previous dated checkout 
 
 | Repository | Focus | Freshness signal observed |
 |------------|-------|----------------------------|
-| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | Broad open-source and hosted AI-agent directory | HEAD `999f3c3`, 9 Jul 2026 |
-| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | Broad 2026 catalog and category recall | HEAD `781b695`, 2 Apr 2026 |
-| [Zijian-Ni/awesome-ai-agents-2026](https://github.com/Zijian-Ni/awesome-ai-agents-2026) | Foundation models, agent protocols, coding agents, security | HEAD `facfe2c`, 2 Jul 2026 |
-| [Deep-Insight-Labs/awesome-ai-agents](https://github.com/Deep-Insight-Labs/awesome-ai-agents) | Frameworks, observability, and emerging projects | HEAD `a4b4fa0`, 28 Apr 2026 |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code skills, plugins, agents, and tooling | HEAD `36ba8e2`, 14 Jul 2026 |
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP server discovery | Live metadata checked 13 Jul 2026 |
-| [e2b-dev/awesome-sdks-for-ai-agents](https://github.com/e2b-dev/awesome-sdks-for-ai-agents) | SDKs and building blocks for agent applications | Companion list to E2B's agent directory |
+| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | Broad open-source and hosted AI-agent directory | 29.2K stars; pushed 9 Jul 2026 |
+| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | Broad 2026 catalog and category recall | 1.5K stars; pushed 10 Jun 2026; updated 1 Aug |
+| [Zijian-Ni/awesome-ai-agents-2026](https://github.com/Zijian-Ni/awesome-ai-agents-2026) | Foundation models, agent protocols, coding agents, security | 212 stars; pushed 1 Aug 2026 |
+| [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | Broad stack with security, observability, and deployment lanes | 281 stars; pushed 30 Jul 2026 |
+| [Deep-Insight-Labs/awesome-ai-agents](https://github.com/Deep-Insight-Labs/awesome-ai-agents) | Frameworks, observability, and emerging projects | 37 stars; pushed 28 Apr 2026 |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code skills, plugins, agents, and tooling | 51.5K stars; pushed 1 Aug 2026 |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP server discovery | 91.7K stars; pushed 29 Jul 2026 |
+| [mcp-security-project/awesome-agentic-mcp-security](https://github.com/mcp-security-project/awesome-agentic-mcp-security) | MCP and agentic security research, tooling, labs, and advisories | 19 stars; pushed 14 Jul 2026 |
+| [e2b-dev/awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks) | SDKs and building blocks for agent applications | 1.2K stars; pushed 9 Jul 2026 |
 
 ## What the comparison pass found
 
 - **Coding agents are now a separate lane:** Codex, OpenCode, Claude Code, Gemini CLI, Cline, OpenHands, Aider, and Kimi CLI should not be buried under generic frameworks.
 - **MCP and A2A are distinct:** MCP connects agents to tools and data; A2A connects agents to agents.
 - **Typed SDKs are a strong current category:** OpenAI Agents SDK, Claude Agent SDK, Google ADK, Pydantic AI, Mastra, smolagents, Agno, and `mcp-agent` all have clear upstream homes.
+- **Runtime and control-plane projects are separating from frameworks:** OpenShell, Docker Agent, Archestra, Kun, herdr, and Mission Control target execution, governance, fleet operations, or workspace management rather than only prompt composition.
+- **Security deserves its own source lane:** `awesome-agentic-mcp-security` and Snyk Agent Scan add threat research and component scanning that a general agent list cannot summarize safely.
 - **Freshness needs explicit flags:** comparison lists contain archived, unverified, stale, or promotional entries. This repository keeps those out of the core snapshot unless independently verified.
 - **YouTube is discovery only:** current videos repeatedly discuss agentic coding workflows, MCP versus APIs/skills, and local coding setups. Video popularity is not an inclusion criterion.
 
@@ -31,7 +35,8 @@ The local project is branded **Awesome AI Agents**. The previous dated checkout 
 | [GitStars.io trending API](https://gitstars.io/api/trending) via `ghmax --gitstars` | Star-velocity and momentum discovery | Strong candidate signal; noisy feed, never a quality score |
 | Tool Radar (`/Users/master/BASE/projects/awesome-indexer`) | Local Gitstars/ghmax/DuckLake ranking and feature map | Use ranked snapshot plus upstream verification |
 | Superweb CLI (`superweb`) | Current web search and primary-source retrieval | Search accelerator; source page remains evidence |
-| [Synapse](https://github.com/Supersynergy/synapse) | Local cited memory and bounded context packs | Context layer, not a public popularity metric |
+| [Synapse](https://github.com/Supersynergy/synapse-memory) | Local cited memory and bounded context packs | Context layer, not a public popularity metric |
+| PUM (`pum refresh --json`) | Host/package freshness and source coverage | Read-only tool inventory; not repository quality evidence |
 
 ## Official protocol and ecosystem sources
 
@@ -44,7 +49,7 @@ The local project is branded **Awesome AI Agents**. The previous dated checkout 
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | Software-engineering agent evaluation |
 | [Hugging Face Agents course](https://huggingface.co/learn/agents-course) | Agent concepts and practical exercises |
 
-For the latest capability synthesis, see [Frontier breakthroughs](docs/FRONTIER-BREAKTHROUGHS-2026-07-14.md).
+For the latest capability synthesis, see the [2 August update audit](docs/UPDATE-2026-08-02.md) and the earlier [frontier breakthroughs](docs/FRONTIER-BREAKTHROUGHS-2026-07-14.md).
 
 ## Selection checklist
 
@@ -59,6 +64,6 @@ Before copying an entry into an awesome list, check:
 
 ## Audit trail
 
-See [docs/UPDATE-2026-07-14.md](docs/UPDATE-2026-07-14.md) for the exact comparison commits, Tool Radar run, Superweb retrieval, GitHub metadata snapshot, and YouTube fallback limits. See the [gap audit](docs/GAP-AUDIT-2026-07-14.md) for Synapse, ZeroClaw, the new runtime family, ACP, skills, and GitStars.io coverage.
+See [docs/UPDATE-2026-08-02.md](docs/UPDATE-2026-08-02.md) for the exact Superweb, ghmax, PUM, and GitHub metadata snapshot. The [July gap audit](docs/GAP-AUDIT-2026-07-14.md) remains historical context for Synapse, ZeroClaw, ACP, and skills.
 
-**Last updated: 14 July 2026**
+**Last updated: 2 August 2026**

@@ -1,16 +1,34 @@
 # AI Agent Frameworks - Detailed Guide
 
-> **Freshness note (14 July 2026):** This is a legacy deep guide with versioned examples from earlier maintenance passes. Use the dated [current README](README.md) and [update audit](docs/UPDATE-2026-07-14.md) for the maintained inventory.
+> **Freshness note (2 August 2026):** The detailed examples below are a legacy deep guide with versioned snippets. Use the [current README](README.md) and [update audit](docs/UPDATE-2026-08-02.md) for the maintained inventory and current shortlist.
 
 A comprehensive breakdown of frameworks for building local AI agents, including features, use cases, installation, and examples.
 
 ## Table of Contents
 
+- [Current 2026 Shortlist](#current-2026-shortlist)
 - [Tier 1: Production-Ready](#tier-1-production-ready)
 - [Tier 2: Specialized](#tier-2-specialized)
 - [Tier 3: Emerging](#tier-3-emerging)
 - [Framework Comparison Matrix](#framework-comparison-matrix)
 - [Choosing the Right Framework](#choosing-the-right-framework)
+
+---
+
+## Current 2026 Shortlist
+
+The maintained shortlist is intentionally smaller than this historical guide. Verify versions and provider support upstream before installing.
+
+| Framework | Current signal | Best fit |
+|---|---:|---|
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 28.3K stars | Tools, handoffs, tracing, and sandboxed agent work |
+| [Google ADK](https://github.com/google/adk-python) | 21.0K stars | Code-first agents, evaluation, and Google deployment |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 19.0K stars | Typed tool I/O and validated structured output |
+| [Mastra](https://github.com/mastra-ai/mastra) | 26.8K stars | TypeScript workflows, memory, and observability |
+| [Vercel Eve](https://github.com/vercel/eve) | 4.2K stars | Filesystem-first durable agents; beta |
+| [Omnigent](https://github.com/omnigent-ai/omnigent) | 8.0K stars | Interoperable coding-agent harnesses and policy controls |
+| [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent) | 6.7K stars | Dynamic multi-agent task graphs in TypeScript |
+| [Archestra](https://github.com/archestra-ai/archestra) | 4.1K stars | MCP/A2A gateway, registry, orchestration, and guardrails |
 
 ---
 
@@ -446,7 +464,7 @@ EMBEDDING_MODEL=ollama/nomic-embed-text
 
 **Natural Language Code Execution**
 
-- **GitHub**: [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
+- **GitHub**: [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter)
 - **Stars**: 56,000+
 - **Language**: Python
 - **License**: AGPL-3.0
@@ -507,7 +525,7 @@ interpreter.chat("Create a bar chart of the top 5 programming languages")
 
 **Software Development Agent**
 
-- **GitHub**: [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
+- **GitHub**: [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
 - **Stars**: 45,000+
 - **Language**: Python
 - **License**: MIT
@@ -825,7 +843,7 @@ print(result.data)  # Validated CityInfo object
 
 **Block's Extensible Agent**
 
-- **GitHub**: [block/goose](https://github.com/block/goose)
+- **GitHub**: [aaif-goose/goose](https://github.com/aaif-goose/goose)
 - **Stars**: 8,000+
 - **Language**: Python
 - **License**: Apache-2.0
@@ -1029,15 +1047,15 @@ Cline (and its fork Roo) are VS Code extensions that bring AI agents directly in
 
 ---
 
-## November 2025 New Frameworks
+## Historical November 2025 Framework Notes
 
-These frameworks were released or gained significant traction in November 2025.
+These notes retain the November 2025 release context. They are not a current ranking; use the shortlist above for current choices.
 
 ### Composio
 
 **100+ High-Quality Integrations**
 
-- **GitHub**: [composio/composio](https://github.com/composio/composio)
+- **GitHub**: [ComposioHQ/composio](https://github.com/ComposioHQ/composio)
 - **Stars**: 26.2K+
 - **Language**: Python
 - **License**: Apache-2.0
@@ -1399,12 +1417,12 @@ The local AI agent ecosystem offers diverse options for different needs:
 - **AutoGen** - Research-backed conversational agents
 - **Open Interpreter** - Direct code execution
 - **Dify/Flowise** - Visual development
-- **Composio** - Best tool integrations (November 2025)
-- **Agno v2.0** - Enterprise-scale multi-agent (November 2025)
-- **Daytona** - Secure AI code execution (November 2025)
+- **Composio** - Tool integrations; verify the current connector surface upstream
+- **Agno** - Model-agnostic agents with tools, knowledge, and memory
+- **Daytona** - Secure AI code execution and developer environments
 
 Start with your use case and team experience level, then iterate as your needs grow. All these frameworks support local LLMs through Ollama or similar tools, giving you complete control over your AI agent stack.
 
 ---
 
-Last Updated: November 2025
+Last Updated: 2 August 2026; historical examples remain version-sensitive.

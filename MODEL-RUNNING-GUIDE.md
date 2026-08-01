@@ -1,14 +1,15 @@
 # Model Running Guide
 
-> Historical local-model notes retained for reference. The maintained current index is [Awesome AI Agents](README.md); verify model names, versions, and hardware guidance against upstream sources before use.
+> **Freshness note (2 August 2026):** Historical local-model notes are retained for reference. The maintained current index is [Awesome AI Agents](README.md); verify model names, versions, tags, and hardware guidance against upstream sources before use.
 
-> **Historical guide:** This document is retained for older local-running examples. It is not the current model inventory. Use the dated [current README](README.md) and verify model names in the upstream runtime before downloading anything.
+> This is a running guide, not a live model inventory. Exact tags and quantizations change faster than this document; verify them in [Ollama](https://ollama.com/library), [Hugging Face](https://huggingface.co/models), or the model publisher before downloading anything.
 
 A complete guide to running the latest AI models locally, including hardware requirements, quantization options, and optimization tips.
 
 ## Table of Contents
 
-- [November 2025 Models](#november-2025-models)
+- [Historical November 2025 Model Notes](#historical-november-2025-model-notes)
+- [Current 2026 Verification Path](#current-2026-verification-path)
 - [Model Sizes and Requirements](#model-sizes-and-requirements)
 - [Quantization Guide](#quantization-guide)
 - [Hardware Recommendations](#hardware-recommendations)
@@ -18,7 +19,20 @@ A complete guide to running the latest AI models locally, including hardware req
 
 ---
 
-## November 2025 Models
+## Current 2026 Verification Path
+
+There is no stable universal "latest" tag across local runtimes. For a reproducible agent setup:
+
+1. Choose the model family from the publisher or runtime library.
+2. Record the exact tag, quantization, context length, and runtime version.
+3. Test tool calling, structured output, latency, and memory pressure on the target hardware.
+4. Keep the model, prompt, tools, and evaluation task versioned together.
+
+Useful live entry points: [Ollama library](https://ollama.com/library), [Hugging Face Models](https://huggingface.co/models), [llama.cpp](https://github.com/ggml-org/llama.cpp), and [vLLM](https://github.com/vllm-project/vllm).
+
+---
+
+## Historical November 2025 Model Notes
 
 ### Llama 4 Family (Meta)
 
@@ -252,7 +266,7 @@ ollama show llama4:scout --modelfile
 
 ## Performance Benchmarks
 
-### Tokens per Second (November 2025)
+### Tokens per Second (historical November 2025 snapshot)
 
 #### 7B Models (Q4_K_M)
 
@@ -446,4 +460,4 @@ ollama pull model
 
 ---
 
-Last Updated: November 2025
+Last Updated: 2 August 2026; model numbers and benchmarks in this file remain historical snapshots.

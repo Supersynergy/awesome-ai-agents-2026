@@ -1,8 +1,24 @@
 # Local LLM Tools - Complete Guide
 
-> **Freshness note (14 July 2026):** The detailed tables below are from an earlier maintenance pass. Use the dated [current README](README.md) for the maintained shortlist and check upstream release notes before installation.
+> **Freshness note (2 August 2026):** The detailed tables below contain older installation examples. Use the current snapshot below and check upstream release notes, model libraries, and exact package names before installation.
 
 A comprehensive guide to tools for running large language models locally on your own hardware.
+
+## Current 2026 runtime snapshot
+
+Use this as the short decision layer; the detailed reviews remain useful for concepts but can lag current releases. Local execution can still incur hardware, electricity, storage, and maintenance costs, and privacy depends on the actual network and telemetry configuration.
+
+| Runtime | Best fit | Current upstream |
+|---|---|---|
+| [Ollama](https://github.com/ollama/ollama) | Fast CLI/API path for local model serving | [Model library](https://ollama.com/library) |
+| [LM Studio](https://lmstudio.ai/) | GUI discovery, local servers, and experimentation | [Docs](https://lmstudio.ai/docs) |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Portable CPU/GPU inference and GGUF control | [Examples](https://github.com/ggml-org/llama.cpp/tree/master/examples) |
+| [vLLM](https://github.com/vllm-project/vllm) | High-throughput OpenAI-compatible serving | [Docs](https://docs.vllm.ai/) |
+| [LocalAI](https://github.com/mudler/LocalAI) | Self-hosted OpenAI-compatible API | [Docs](https://localai.io/) |
+| [Jan](https://github.com/janhq/jan) | Desktop-first local assistant and API | [Docs](https://jan.ai/docs) |
+| [GPT4All](https://github.com/nomic-ai/gpt4all) | Desktop-first local chat and document workflows | [Docs](https://docs.gpt4all.io/) |
+
+For agents, pair a serving runtime with explicit tool permissions, a sandbox, and a reproducible local evaluation. Do not treat a model download or a working chat UI as proof of safe autonomous execution.
 
 ## Table of Contents
 
@@ -810,7 +826,7 @@ docker run --gpus all -p 8080:8080 \
 
 ---
 
-## November 2025 Model Releases
+## Historical November 2025 Model Notes
 
 ### Latest Flagship Models
 
@@ -866,7 +882,7 @@ ollama pull deepseek-r1:latest
 
 ---
 
-## November 2025 Tool Updates
+## Historical November 2025 Tool Notes
 
 ### Ollama 2.x Improvements
 
@@ -919,4 +935,4 @@ Remember to choose models based on your hardware - a well-optimized 7B model oft
 
 ---
 
-Last Updated: November 2025
+Last Updated: 2 August 2026; detailed versioned examples remain historical.
