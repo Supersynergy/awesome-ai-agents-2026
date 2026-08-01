@@ -45,6 +45,7 @@
 | [LangChain](https://github.com/langchain-ai/langchain) | 116K+ | Massive ecosystem, 1000+ integrations | Prototyping, integration-heavy workflows |
 | [Agno](https://github.com/agno-agi/agno) | 35K+ | Multimodal agents, runtime + control plane | Multimodal tasks, agent observability |
 | [Composio](https://github.com/ComposioHQ/composio) | 27K+ | 100+ tool integrations, MCP support | Tool-heavy agents, SaaS automation |
+| [LightAgent](https://github.com/wanxingai/LightAgent) | 1.2K+ | Tools, memory, MCP/SSE, Skills, hooks, workflows | Lightweight Python agents and multi-agent collaboration |
 
 ### Local / Open-Source Runtimes
 
