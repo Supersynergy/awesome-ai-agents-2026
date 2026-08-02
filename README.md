@@ -177,6 +177,8 @@ These projects were surfaced by ghmax and verified against active official repos
 
 ## Agent skills and repo context
 
+The complete current catalog is in [SKILLS.md](SKILLS.md). The table below keeps the main index scannable while preserving the important domain boundaries.
+
 | Project | Role |
 |---|---|
 | [Superpowers](https://github.com/obra/superpowers) | Agentic skills framework and software-development methodology |
@@ -186,6 +188,14 @@ These projects were surfaced by ghmax and verified against active official repos
 | [Trail of Bits Skills](https://github.com/trailofbits/skills) | Security research, vulnerability detection, audit, and verification workflows for coding agents |
 | [AWS Agent Toolkit](https://github.com/aws/agent-toolkit-for-aws) | AWS MCP servers, skills, plugins, and guardrails for coding agents |
 | [AWS MCP servers](https://github.com/awslabs/mcp) | AWS-focused MCP server collection; the upstream README points new work to Agent Toolkit for AWS |
+| [.NET Agent Skills](https://github.com/dotnet/skills) | .NET/C# development, .NET AI, RAG, agent workflows, and MCP |
+| [David Ondrej Skills](https://github.com/davidondrej/skills) | General coding, research, orchestration, skill authoring, and operations |
+| [Interfaces Skills](https://github.com/jakubkrehel/skills) | UI polish, accessibility, typography, layout, and UX writing |
+| [Bankr Skills](https://github.com/BankrBot/skills) | Web3, DeFi, wallets, on-chain data, and agent commerce; high-impact actions require approval |
+| [Chris Banes Skills](https://github.com/chrisbanes/skills) | Kotlin, Jetpack Compose, Android architecture, performance, and testing |
+| [dzhng Skills](https://github.com/dzhng/skills) | Domain-agnostic planning, implementation, review, visual work, and verification |
+| [Pedro Nauck Skills](https://github.com/pedronauck/skills) | Broad engineering, community, marketing, business, and workflow skill catalog |
+| [Social Media Skills](https://github.com/social-media-skills/skills) | Social strategy, writing, video, design, growth, analytics, and publishing; keep send approval explicit |
 
 Skills are executable context, not decoration: prefer scoped permissions, explicit stop conditions, and a testable outcome.
 
@@ -278,6 +288,7 @@ This section is deliberately separate from the curated core.
 
 - **ghmax / GitStars.io:** the 2 August run returned [OpenCode](https://github.com/anomalyco/opencode) at `+2,259 stars / 7d` and [OpenClaw](https://github.com/openclaw/openclaw) at `+694 / 7d`. The feed also contained unrelated repositories, so star velocity is discovery only.
 - **GitStars.io name-index pass:** `ghmax --gitstars-suggest` surfaced [Vercel AI SDK](https://github.com/vercel/ai), [Workflow SDK](https://github.com/vercel/workflow), [CopilotKit](https://github.com/CopilotKit/CopilotKit), [Stately Agent](https://github.com/statelyai/agent), [AWS MCP](https://github.com/awslabs/mcp), [llm-d](https://github.com/llm-d/llm-d), [NVIDIA skills](https://github.com/NVIDIA/skills), [Trail of Bits skills](https://github.com/trailofbits/skills), and newer physical/coding candidates. These were added only after official metadata and README checks; generic or stale matches remain discovery-only.
+- **GitStars skills pass:** the bounded `skills` name search returned ten active catalogs: Trail of Bits, .NET, NVIDIA, David Ondrej, Interfaces, Bankr, Chris Banes, dzhng, Pedro Nauck, and Social Media Skills. All ten are now listed in [SKILLS.md](SKILLS.md) with focus and installation boundaries.
 - **ghmax repository search:** fresh, active candidates included [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell), [Archestra](https://github.com/archestra-ai/archestra), [Docker Agent](https://github.com/docker/docker-agent), [Kun](https://github.com/KunAgent/Kun), [herdr](https://github.com/herdrdev/herdr), and [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent).
 - **PUM:** the read-only refresh completed with `924` installed package records and `124` update candidates. PUM checks host/tool freshness; it is not a quality score for repositories.
 - **Superweb:** current comparison-list retrieval surfaced [Zijian-Ni](https://github.com/Zijian-Ni/awesome-ai-agents-2026), [caramaschiHG](https://github.com/caramaschiHG/awesome-ai-agents-2026), [ARUNAGIRINATHAN-K](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026), and [awesome-agentic-mcp-security](https://github.com/mcp-security-project/awesome-agentic-mcp-security).
