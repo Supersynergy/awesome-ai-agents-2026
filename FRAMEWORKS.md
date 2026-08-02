@@ -25,6 +25,10 @@ The maintained shortlist is intentionally smaller than this historical guide. Ve
 | [Google ADK](https://github.com/google/adk-python) | 21.0K stars | Code-first agents, evaluation, and Google deployment |
 | [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 19.0K stars | Typed tool I/O and validated structured output |
 | [Mastra](https://github.com/mastra-ai/mastra) | 26.8K stars | TypeScript workflows, memory, and observability |
+| [Vercel AI SDK](https://github.com/vercel/ai) | 25.9K stars | Provider-agnostic TypeScript toolkit, tool-loop agents, and UI integrations |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 36.4K stars | Agent-native applications, generative UI, shared state, and human-in-the-loop flows |
+| [Stately Agent](https://github.com/statelyai/agent) | 420 stars | State-machine control flow for typed LLM decisions; Agent 2 is alpha |
+| [Workflow SDK](https://github.com/vercel/workflow) | 2.3K stars | Durable, reliable, and observable TypeScript workflows for AI agents |
 | [Vercel Eve](https://github.com/vercel/eve) | 4.2K stars | Filesystem-first durable agents; beta |
 | [Omnigent](https://github.com/omnigent-ai/omnigent) | 8.0K stars | Interoperable coding-agent harnesses and policy controls |
 | [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent) | 6.7K stars | Dynamic multi-agent task graphs in TypeScript |

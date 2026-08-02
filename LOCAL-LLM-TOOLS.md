@@ -17,8 +17,11 @@ Use this as the short decision layer; the detailed reviews remain useful for con
 | [LocalAI](https://github.com/mudler/LocalAI) | Self-hosted OpenAI-compatible API | [Docs](https://localai.io/) |
 | [Jan](https://github.com/janhq/jan) | Desktop-first local assistant and API | [Docs](https://jan.ai/docs) |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Desktop-first local chat and document workflows | [Docs](https://docs.gpt4all.io/) |
+| [llm-d](https://github.com/llm-d/llm-d) | Kubernetes inference performance and serving infrastructure for agent workloads | [Docs](https://llm-d.ai/) |
 
 For agents, pair a serving runtime with explicit tool permissions, a sandbox, and a reproducible local evaluation. Do not treat a model download or a working chat UI as proof of safe autonomous execution.
+
+GitStars also surfaced [llm-d-router](https://github.com/llm-d/llm-d-router) as a current inference-routing companion. It belongs to serving infrastructure, not to the agent framework core.
 
 ## Table of Contents
 

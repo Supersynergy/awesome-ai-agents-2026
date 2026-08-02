@@ -17,6 +17,9 @@ The local project is branded **Awesome AI Agents**. The previous dated checkout 
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP server discovery | 91.7K stars; pushed 29 Jul 2026 |
 | [mcp-security-project/awesome-agentic-mcp-security](https://github.com/mcp-security-project/awesome-agentic-mcp-security) | MCP and agentic security research, tooling, labs, and advisories | 19 stars; pushed 14 Jul 2026 |
 | [e2b-dev/awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks) | SDKs and building blocks for agent applications | 1.2K stars; pushed 9 Jul 2026 |
+| [bradAGI/awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) | Terminal-native coding agents, harnesses, runners, and infrastructure | 919 stars; pushed 1 Aug 2026 |
+| [sammcj/agentic-coding](https://github.com/sammcj/agentic-coding) | Agentic coding rules, templates, and workflow guidance | 154 stars; pushed 30 Jul 2026 |
+| [mokevnin/agentic-coding-design-patterns](https://github.com/mokevnin/agentic-coding-design-patterns) | Agentic software-development patterns | 76 stars; pushed 31 Jul 2026 |
 
 ## What the comparison pass found
 
@@ -33,6 +36,7 @@ The local project is branded **Awesome AI Agents**. The previous dated checkout 
 | Source | Role | Safe interpretation |
 |---|---|---|
 | [GitStars.io trending API](https://gitstars.io/api/trending) via `ghmax --gitstars` | Star-velocity and momentum discovery | Strong candidate signal; noisy feed, never a quality score |
+| GitStars.io name index via `ghmax --gitstars-suggest` | Name-based recall for `ai`, `agentic`, `coding agent`, `mcp`, `runtime`, `skills`, and related lanes | API caps each query at 10 rows; use it to find candidates, then verify upstream |
 | Tool Radar (`/Users/master/BASE/projects/awesome-indexer`) | Local Gitstars/ghmax/DuckLake ranking and feature map | Use ranked snapshot plus upstream verification |
 | Superweb CLI (`superweb`) | Current web search and primary-source retrieval | Search accelerator; source page remains evidence |
 | [Synapse](https://github.com/Supersynergy/synapse-memory) | Local cited memory and bounded context packs | Context layer, not a public popularity metric |

@@ -79,6 +79,10 @@ For the detailed research notes, source links, and evidence boundaries, see the 
 | [Google ADK](https://github.com/google/adk-python) | 21.0K | Code-first agents, evaluation, deployment, and Google model integration |
 | [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 19.0K | Type-safe agents and validated structured output |
 | [Mastra](https://github.com/mastra-ai/mastra) | 26.8K | TypeScript agents, workflows, memory, and observability |
+| [Vercel AI SDK](https://github.com/vercel/ai) | 25.9K | Provider-agnostic TypeScript toolkit for applications and tool-loop agents |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 36.4K | Agent-native apps, generative UI, shared state, and human approval flows |
+| [Stately Agent](https://github.com/statelyai/agent) | 420 | State-machine-controlled LLM agents; Agent 2 is alpha |
+| [Workflow SDK](https://github.com/vercel/workflow) | 2.3K | Durable, reliable, and observable TypeScript workflows for agents |
 | [smolagents](https://github.com/huggingface/smolagents) | 28.6K | Small code-first agents and `CodeAgent` workflows |
 | [Agno](https://github.com/agno-agi/agno) | 41.5K | Model-agnostic agents with tools, knowledge, and memory |
 | [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | 8.5K | MCP-native agents and compact workflow patterns |
@@ -98,6 +102,8 @@ For the detailed research notes, source links, and evidence boundaries, see the 
 | [Docker Agent](https://github.com/docker/docker-agent) | Docker Desktop / self-hosted | Declarative YAML agents, MCP tools, and multi-agent runs |
 | [Kun](https://github.com/KunAgent/Kun) | Local-first | Desktop/TUI workspace for coding, writing, research, and automation |
 | [Mission Control](https://github.com/builderz-labs/mission-control) | Self-hosted | Dispatch, review, spend tracking, and operations across agent runtimes |
+| [Autonomous OS](https://github.com/autonomous-ai/autonomous-os) | Edge / self-hosted | Physical-AI operating system with swappable agent runtimes and deterministic safety bounds |
+| [AgenticROS](https://github.com/agenticros/agenticros) | ROS 2 / self-hosted | Agent-agnostic robot tools, MCP adapters, and declarative missions |
 | [OpenAI Deep Research](https://openai.com/index/introducing-deep-research/) | Hosted | Long-running, citation-oriented research |
 | [Gemini Deep Research](https://gemini.google.com/) | Hosted | Research tasks in the Google ecosystem |
 | [Manus](https://manus.im/) | Hosted | General-purpose autonomous task execution |
@@ -119,7 +125,7 @@ Current GitHub snapshots checked **2 August 2026**. Stars indicate attention, no
 | [IronClaw](https://github.com/nearai/ironclaw) | 12.6K | Rust / Agent OS | Privacy, security, and extensibility as the runtime boundary |
 | [NullClaw](https://github.com/nullclaw/nullclaw) | 8.0K | Zig / minimal runtime | Small autonomous assistant infrastructure |
 
-### New runtime and control-plane candidates
+### New runtime, control-plane, and physical-agent candidates
 
 These projects were surfaced by ghmax and verified against active official repositories. They are useful additions, but a live repository and star count are not a production-readiness claim.
 
@@ -129,6 +135,8 @@ These projects were surfaced by ghmax and verified against active official repos
 | [holaOS](https://github.com/holaboss-ai/holaOS) | 5.5K | TypeScript / agent workspace | Shared memory and MCP across apps, files, and browsers |
 | [Archestra](https://github.com/archestra-ai/archestra) | 4.1K | TypeScript / gateway | Controlled enterprise access to MCP, A2A, and agent triggers |
 | [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent) | 6.7K | TypeScript / orchestrator | Dynamic multi-agent workflows in a Node.js application |
+| [Wippy](https://github.com/wippyai/runtime) | 12 | Go / Lua-WASM runtime | Durable actor runtime with queues, vector search, policy controls, and MCP updates |
+| [AgenticFlowX](https://github.com/AgenticFlowX/agenticflowx) | 19 | VS Code / workflow layer | Chat-first coding with Code, Explore, Spec, skills, and repo-owned traceability |
 
 ## Coding agents
 
@@ -150,7 +158,7 @@ These projects were surfaced by ghmax and verified against active official repos
 
 ### Coding-agent ecosystem
 
-[Claude Code Router](https://github.com/musistudio/claude-code-router) · [Claude Code Templates](https://github.com/davila7/claude-code-templates) · [SWE-agent](https://github.com/SWE-agent/SWE-agent) · [GitHub Copilot](https://github.com/features/copilot) · [Cursor](https://cursor.com/) · [Windsurf](https://windsurf.com/)
+[Claude Code Router](https://github.com/musistudio/claude-code-router) · [Claude Code Templates](https://github.com/davila7/claude-code-templates) · [AgenticFlowX](https://github.com/AgenticFlowX/agenticflowx) · [SWE-agent](https://github.com/SWE-agent/SWE-agent) · [GitHub Copilot](https://github.com/features/copilot) · [Cursor](https://cursor.com/) · [Windsurf](https://windsurf.com/)
 
 ## Protocols and standards
 
@@ -159,6 +167,7 @@ These projects were surfaced by ghmax and verified against active official repos
 | [Model Context Protocol (MCP)](https://modelcontextprotocol.io/specification/latest) | Connect agents to tools, data, prompts, and resources |
 | [MCP Servers](https://github.com/modelcontextprotocol/servers) | Official reference servers and implementation examples |
 | [Agent2Agent (A2A)](https://a2a-protocol.org/latest/) | Discover, delegate, and exchange artifacts between opaque agents |
+| [AG-UI](https://github.com/ag-ui-protocol/ag-ui) | Stream agent state, events, and human interaction into user-facing applications |
 | [OpenAI function calling](https://platform.openai.com/docs/guides/function-calling) | Structured tool calls and schema-constrained actions |
 | [Anthropic tool use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) | Model-directed tools and structured results |
 | [Agent Client Protocol (ACP)](https://github.com/agentclientprotocol/agent-client-protocol) | Connect editors and agent runtimes through a common protocol |
@@ -173,6 +182,10 @@ These projects were surfaced by ghmax and verified against active official repos
 | [Superpowers](https://github.com/obra/superpowers) | Agentic skills framework and software-development methodology |
 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Interactive codebase knowledge graph for Claude Code, Codex, Cursor, Copilot, and Gemini CLI |
 | [AGENTS.md](https://github.com/agentsmd/agents.md) | Keep project-specific constraints, workflows, and safety context close to the repository |
+| [NVIDIA Agent Skills](https://github.com/NVIDIA/skills) | Verified skills for Physical AI, robotics, CUDA, simulation, and RAG workflows |
+| [Trail of Bits Skills](https://github.com/trailofbits/skills) | Security research, vulnerability detection, audit, and verification workflows for coding agents |
+| [AWS Agent Toolkit](https://github.com/aws/agent-toolkit-for-aws) | AWS MCP servers, skills, plugins, and guardrails for coding agents |
+| [AWS MCP servers](https://github.com/awslabs/mcp) | AWS-focused MCP server collection; the upstream README points new work to Agent Toolkit for AWS |
 
 Skills are executable context, not decoration: prefer scoped permissions, explicit stop conditions, and a testable outcome.
 
@@ -218,7 +231,7 @@ Track task success, tool success, latency, token cost, retries, human interventi
 
 ## Security and guardrails
 
-[NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) · [Guardrails AI](https://github.com/guardrails-ai/guardrails) · [Snyk Agent Scan](https://github.com/snyk/agent-scan) · [garak](https://github.com/NVIDIA/garak) · [Microsoft Presidio](https://github.com/microsoft/presidio)
+[NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) · [Guardrails AI](https://github.com/guardrails-ai/guardrails) · [Trail of Bits Skills](https://github.com/trailofbits/skills) · [Snyk Agent Scan](https://github.com/snyk/agent-scan) · [garak](https://github.com/NVIDIA/garak) · [Microsoft Presidio](https://github.com/microsoft/presidio)
 
 Minimum controls: least-privilege tool scopes, server allowlists, validated tool output, sandboxing, egress limits, max steps, cost limits, audit logs, and human approval for irreversible actions.
 
@@ -233,10 +246,12 @@ Minimum controls: least-privilege tool scopes, server allowlists, validated tool
 | [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) | Declarative filesystem, process, network, and inference policies for agent sandboxes; alpha |
 | [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | Secure, extensible sandbox runtime with coding-agent and Kubernetes examples |
 | [Docker Agent](https://github.com/docker/docker-agent) | YAML-defined agents, multi-agent orchestration, and MCP tools in Docker |
+| [Blaxel Sandbox](https://github.com/blaxel-ai/sandbox) | Isolated micro-VM templates and sandbox API for agent-generated workloads |
 | [E2B](https://github.com/e2b-dev/E2B) | Secure environments for agent-generated code |
 | [Ollama](https://github.com/ollama/ollama) | Local model serving and developer workflows |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Portable local inference |
 | [vLLM](https://github.com/vllm-project/vllm) | High-throughput model serving |
+| [llm-d](https://github.com/llm-d/llm-d) | Kubernetes inference performance and routing for model- and agent-serving workloads |
 | [Modal](https://modal.com/) | Serverless compute for agent and model workloads |
 | [BentoML](https://github.com/bentoml/BentoML) | Packaging and serving model-backed applications |
 
@@ -262,6 +277,7 @@ Choose storage by deletion semantics, tenant isolation, filter support, provenan
 This section is deliberately separate from the curated core.
 
 - **ghmax / GitStars.io:** the 2 August run returned [OpenCode](https://github.com/anomalyco/opencode) at `+2,259 stars / 7d` and [OpenClaw](https://github.com/openclaw/openclaw) at `+694 / 7d`. The feed also contained unrelated repositories, so star velocity is discovery only.
+- **GitStars.io name-index pass:** `ghmax --gitstars-suggest` surfaced [Vercel AI SDK](https://github.com/vercel/ai), [Workflow SDK](https://github.com/vercel/workflow), [CopilotKit](https://github.com/CopilotKit/CopilotKit), [Stately Agent](https://github.com/statelyai/agent), [AWS MCP](https://github.com/awslabs/mcp), [llm-d](https://github.com/llm-d/llm-d), [NVIDIA skills](https://github.com/NVIDIA/skills), [Trail of Bits skills](https://github.com/trailofbits/skills), and newer physical/coding candidates. These were added only after official metadata and README checks; generic or stale matches remain discovery-only.
 - **ghmax repository search:** fresh, active candidates included [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell), [Archestra](https://github.com/archestra-ai/archestra), [Docker Agent](https://github.com/docker/docker-agent), [Kun](https://github.com/KunAgent/Kun), [herdr](https://github.com/herdrdev/herdr), and [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent).
 - **PUM:** the read-only refresh completed with `924` installed package records and `124` update candidates. PUM checks host/tool freshness; it is not a quality score for repositories.
 - **Superweb:** current comparison-list retrieval surfaced [Zijian-Ni](https://github.com/Zijian-Ni/awesome-ai-agents-2026), [caramaschiHG](https://github.com/caramaschiHG/awesome-ai-agents-2026), [ARUNAGIRINATHAN-K](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026), and [awesome-agentic-mcp-security](https://github.com/mcp-security-project/awesome-agentic-mcp-security).
@@ -285,6 +301,9 @@ See the [2 August audit](docs/UPDATE-2026-08-02.md) for exact snapshots, command
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP server discovery |
 | [mcp-security-project/awesome-agentic-mcp-security](https://github.com/mcp-security-project/awesome-agentic-mcp-security) | MCP and agentic security research, tooling, labs, and advisories |
 | [e2b-dev/awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks) | SDKs and building blocks |
+| [bradAGI/awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) | Terminal-native coding agents, harnesses, parallel runners, and infrastructure |
+| [sammcj/agentic-coding](https://github.com/sammcj/agentic-coding) | Agentic coding rules, templates, and workflow guidance |
+| [mokevnin/agentic-coding-design-patterns](https://github.com/mokevnin/agentic-coding-design-patterns) | Current agentic software-development patterns |
 
 Use broad lists for recall. Use this index's dated audit and upstream links for currentness.
 

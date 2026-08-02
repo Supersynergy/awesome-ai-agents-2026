@@ -31,6 +31,8 @@ Stars are GitHub snapshots from the update pass, not quality scores. These proje
 | [CodeGraph](https://github.com/colbymchenry/codegraph) | 63.9K | Local code knowledge graph for coding agents | C |
 | [Qwen Code](https://github.com/QwenLM/qwen-code) | 26.5K | Open-source terminal coding agent | TypeScript |
 | [Beads](https://github.com/gastownhall/beads) | 25.8K | Persistent work and memory layer for coding agents | Go |
+| [AgenticFlowX](https://github.com/AgenticFlowX/agenticflowx) | 19 | VS Code AI coding workflow with Code, Explore, Spec, skills, and traceability | TypeScript |
+| [OpenTag](https://github.com/CopilotKit/OpenTag) | 723 | Agent-native on-call triage assistant for Slack and Microsoft Teams | TypeScript / Python |
 
 ### Runtimes, workspaces, and orchestration
 
@@ -43,6 +45,9 @@ Stars are GitHub snapshots from the update pass, not quality scores. These proje
 | [herdr](https://github.com/herdrdev/herdr) | 23.4K | Runtime and workspace manager for coding-agent fleets | Rust |
 | [Kun](https://github.com/KunAgent/Kun) | 5.5K | Local-first GUI/TUI workspace for coding, writing, and research | TypeScript |
 | [Mission Control](https://github.com/builderz-labs/mission-control) | 5.9K | Self-hosted dispatch, review, operations, and spend tracking | TypeScript |
+| [AgenticROS](https://github.com/agenticros/agenticros) | 128 | ROS 2 bridge for OpenClaw, Claude, Codex, Gemini, Hermes, and MCP | TypeScript |
+| [Autonomous OS](https://github.com/autonomous-ai/autonomous-os) | 23 | Local-first operating system for physical AI agents and devices | Go / Python |
+| [Wippy](https://github.com/wippyai/runtime) | 12 | Durable actor runtime with queues, vector search, policy controls, and MCP updates | Go / Lua / WASM |
 
 ### Sandboxing, context, and security
 
@@ -52,6 +57,7 @@ Stars are GitHub snapshots from the update pass, not quality scores. These proje
 | [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) | 7.9K | Policy-governed private runtime for agents; alpha software | Rust |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 27.7K | Filesystem-shaped context database for memory, RAG, and skills | Python |
 | [Snyk Agent Scan](https://github.com/snyk/agent-scan) | 2.8K | Scans agent components, MCP servers, and skills for threats | Python |
+| [Blaxel Sandbox](https://github.com/blaxel-ai/sandbox) | 25 | Isolated micro-VM templates and sandbox API for agent workloads | Go |
 
 ---
 
