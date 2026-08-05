@@ -45,6 +45,7 @@ Stars are GitHub snapshots from the update pass, not quality scores. These proje
 | [herdr](https://github.com/herdrdev/herdr) | 23.4K | Runtime and workspace manager for coding-agent fleets | Rust |
 | [Kun](https://github.com/KunAgent/Kun) | 5.5K | Local-first GUI/TUI workspace for coding, writing, and research | TypeScript |
 | [Mission Control](https://github.com/builderz-labs/mission-control) | 5.9K | Self-hosted dispatch, review, operations, and spend tracking | TypeScript |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | 1.0K | Local-first desktop workspace for orchestrating specialist agents with compatible local model endpoints | TypeScript / Electron |
 | [AgenticROS](https://github.com/agenticros/agenticros) | 128 | ROS 2 bridge for OpenClaw, Claude, Codex, Gemini, Hermes, and MCP | TypeScript |
 | [Autonomous OS](https://github.com/autonomous-ai/autonomous-os) | 23 | Local-first operating system for physical AI agents and devices | Go / Python |
 | [Wippy](https://github.com/wippyai/runtime) | 12 | Durable actor runtime with queues, vector search, policy controls, and MCP updates | Go / Lua / WASM |
