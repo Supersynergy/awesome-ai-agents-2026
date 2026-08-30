@@ -98,6 +98,7 @@ For the detailed research notes, source links, and evidence boundaries, see the 
 | [OpenClaw](https://github.com/openclaw/openclaw) | Self-hosted | Personal assistants, channels, skills, memory, and tool orchestration |
 | [Goose](https://github.com/aaif-goose/goose) | Local / self-hosted | Extensible agent with MCP and any-LLM support |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | Open source | Software-development agents and sandboxed execution |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | Local-first / self-hosted | Agent runtime and MCP bridge with session isolation, memory, credentials, audit/replay, and a local Console |
 | [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) | Self-hosted / alpha | Policy-governed private sandboxes for autonomous agents |
 | [Docker Agent](https://github.com/docker/docker-agent) | Docker Desktop / self-hosted | Declarative YAML agents, MCP tools, and multi-agent runs |
 | [Kun](https://github.com/KunAgent/Kun) | Local-first | Desktop/TUI workspace for coding, writing, research, and automation |
