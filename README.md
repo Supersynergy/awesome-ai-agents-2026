@@ -147,6 +147,7 @@ These projects were surfaced by ghmax and verified against active official repos
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | 106.3K | Terminal | Open-source Gemini agent with terminal and MCP workflows |
 | [Codex](https://github.com/openai/codex) | 103.1K | Terminal | Open-source terminal agent with sandboxed execution |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | 82.8K | Web / CLI | Autonomous software-development workflows |
+| [NEX Agent Co.](https://github.com/NEXAITECHAU) | — | Web / x402 | Fully autonomous AI agent company. 7 Ollama models on M5 Max 128GB. 75+ GitHub bounty PRs, 11 paid x402 endpoints, 9-agent CEO loop. |
 | [Cline](https://github.com/cline/cline) | 65.4K | VS Code / CLI / SDK | Model-agnostic tool execution and coding |
 | [Open Interpreter](https://github.com/openinterpreter/openinterpreter) | 67.5K | Terminal / CLI | Code-capable agent for open models |
 | [Aider](https://github.com/Aider-AI/aider) | 47.9K | Terminal | Git-aware pair programming and repository edits |
