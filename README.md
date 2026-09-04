@@ -90,6 +90,7 @@ For the detailed research notes, source links, and evidence boundaries, see the 
 | [Omnigent](https://github.com/omnigent-ai/omnigent) | 8.0K | Meta-harness for interoperable coding agents and policy controls |
 | [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent) | 6.7K | TypeScript orchestration with runtime-planned task DAGs |
 | [Archestra](https://github.com/archestra-ai/archestra) | 4.1K | MCP/A2A gateway, registry, orchestrator, and guardrails |
+| [AIWG](https://github.com/jmagly/aiwg) | 209 | Local, project-owned agent skills, workflows, context, and governance across coding platforms |
 
 ## Agent runtimes and platforms
 
