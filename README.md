@@ -196,6 +196,7 @@ The complete current catalog is in [SKILLS.md](SKILLS.md). The table below keeps
 | [dzhng Skills](https://github.com/dzhng/skills) | Domain-agnostic planning, implementation, review, visual work, and verification |
 | [Pedro Nauck Skills](https://github.com/pedronauck/skills) | Broad engineering, community, marketing, business, and workflow skill catalog |
 | [Social Media Skills](https://github.com/social-media-skills/skills) | Social strategy, writing, video, design, growth, analytics, and publishing; keep send approval explicit |
+- [HostDeFi](https://hostdefi.com/) - DEX front-end with a live A2A agent card (/.well-known/agent.json): agents can scan tokens (A+–F safety grades), price swaps and pay per call in USDC via x402.
 
 Skills are executable context, not decoration: prefer scoped permissions, explicit stop conditions, and a testable outcome.
 
