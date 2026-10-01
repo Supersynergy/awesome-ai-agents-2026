@@ -236,6 +236,7 @@ Memory is a product decision, not a vector-store checkbox: define retention, del
 | [BrowserGym](https://github.com/ServiceNow/BrowserGym) | 1.3K; web-agent research across browser benchmarks |
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | 5.5K; reproducible software-engineering tasks |
 | [Mission Control](https://github.com/builderz-labs/mission-control) | Agent operations, dispatch, review, and spend tracking |
+| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Self-hosted dashboard for monitoring OpenClaw agent fleets: token usage, session tracking, and 7-day trends. Vue 3 + ECharts |
 
 Track task success, tool success, latency, token cost, retries, human interventions, and unsafe-action attempts. A transcript alone is not an evaluation.
 
