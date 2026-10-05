@@ -222,6 +222,7 @@ Production rule: define a closed task, machine-checkable oracle, maximum step co
 | [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 10.3K | Agent-memory storage and retrieval patterns |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 27.7K | Filesystem-shaped context database for memory, RAG, and skills |
 | [Synapse](https://github.com/Supersynergy/synapse-memory) | 1 | Local-first cited memory, decisions, context packs, and recovery checkpoints in SQLite |
+| [Screenpipe](https://github.com/screenpipe/screenpipe) | 21,822 (2026-10-05) | Searchable local screen text and audio history for agent recall and meeting context via [MCP](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) and a local API; source-available under the Screenpipe Commercial License |
 
 Memory is a product decision, not a vector-store checkbox: define retention, deletion, tenant boundaries, provenance, and recovery before shipping.
 
