@@ -102,6 +102,7 @@ For the detailed research notes, source links, and evidence boundaries, see the 
 | [Docker Agent](https://github.com/docker/docker-agent) | Docker Desktop / self-hosted | Declarative YAML agents, MCP tools, and multi-agent runs |
 | [Kun](https://github.com/KunAgent/Kun) | Local-first | Desktop/TUI workspace for coding, writing, research, and automation |
 | [Mission Control](https://github.com/builderz-labs/mission-control) | Self-hosted | Dispatch, review, spend tracking, and operations across agent runtimes |
+| [Tale](https://tale.dev/) | Hosted / collaborative | Shared workspace for assigning tasks to reusable AI agents, running coding harnesses in sandboxes, and reviewing deliverables |
 | [Autonomous OS](https://github.com/autonomous-ai/autonomous-os) | Edge / self-hosted | Physical-AI operating system with swappable agent runtimes and deterministic safety bounds |
 | [AgenticROS](https://github.com/agenticros/agenticros) | ROS 2 / self-hosted | Agent-agnostic robot tools, MCP adapters, and declarative missions |
 | [OpenAI Deep Research](https://openai.com/index/introducing-deep-research/) | Hosted | Long-running, citation-oriented research |
