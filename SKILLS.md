@@ -24,6 +24,7 @@ Skills supply task-specific instructions and sometimes scripts or plugins. Use t
 | [dzhng Skills](https://github.com/dzhng/skills) | Planning and engineering workflows |
 | [Pedro Nauck Skills](https://github.com/pedronauck/skills) | Engineering and business skill catalog |
 | [Social Media Skills](https://github.com/social-media-skills/skills) | Social-media workflows; publishing needs approval |
+| [Aident Loadout](https://github.com/Aident-AI/aident-skill) | Connect Codex, Claude Code, Cursor and other MCP clients to 1,000+ apps and 400+ Skills through one reusable setup |
 
 
 ## Choose and verify a skill
