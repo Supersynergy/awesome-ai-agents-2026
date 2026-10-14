@@ -220,6 +220,7 @@ The complete current catalog is in [SKILLS.md](SKILLS.md). The table below keeps
 | [dzhng Skills](https://github.com/dzhng/skills) | Planning and engineering workflows |
 | [Pedro Nauck Skills](https://github.com/pedronauck/skills) | Engineering and business skill catalog |
 | [Social Media Skills](https://github.com/social-media-skills/skills) | Social-media workflows; publishing needs approval |
+| [Aident Loadout](https://github.com/Aident-AI/aident-skill) | Connect Codex, Claude Code, Cursor and other MCP clients to 1,000+ apps and 400+ Skills through one reusable setup |
 
 Skills are executable context, not decoration: prefer scoped permissions, explicit stop conditions, and a testable outcome.
 
