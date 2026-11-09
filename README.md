@@ -75,6 +75,7 @@ Give a coding agent a concrete change to make. Compare the interface and model s
 | [Qwen Code](https://github.com/QwenLM/qwen-code) | Terminal | Work on repository tasks from the terminal |
 | [pi](https://github.com/earendil-works/pi) | TUI / CLI toolkit | Code with a small, extensible terminal agent |
 | [Chorus](https://github.com/chorus-codes/chorus) | CLI harness | Review proposed changes through multiple models |
+| [Orbi](https://github.com/orbi-build/orbi) ([website](https://orbi.build/?ref=dir-supersynergy-awesome-agents)) | GitHub issues / self-hosted CLI | Turn labeled issues into changes in isolated worktrees, with independent acceptance review before merge |
 
 ### Coding-agent ecosystem
 
