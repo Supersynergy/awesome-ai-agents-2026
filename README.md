@@ -331,6 +331,10 @@ Archived projects can remain valuable references. They are excluded from this cu
 
 ## Related awesome lists
 
+- [Awesome Awesome Best of Repo Lists](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists): browse resource catalogs across domains.
+- [Awesome Skills](https://github.com/Supersynergy/awesome-skills): skill formats and reusable agent workflows.
+- [Awesome Prompts](https://github.com/Supersynergy/awesome-prompts): prompt libraries, guidance and cookbooks.
+
 | List | Focus |
 |---|---|
 | [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | Broad open- and closed-source agent directory |
