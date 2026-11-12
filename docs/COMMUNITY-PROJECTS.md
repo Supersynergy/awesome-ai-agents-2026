@@ -1,6 +1,6 @@
 # Community agent runtimes and workspaces
 
-**Checked 13 October 2026** · [Main index](README.md) · [Harness research](docs/HARNESS-RESEARCH.md)
+**Checked 13 October 2026** · [Main index](../README.md) · [Harness research](HARNESS-RESEARCH.md)
 
 These projects provide execution environments, personal assistants and operations tools. The descriptions summarize upstream scope; this update did not run their software or verify deployments.
 
@@ -38,7 +38,7 @@ Repository metadata checked **13 October 2026**. Language and design goals descr
 
 ### New runtime, control-plane, and physical-agent candidates
 
-Additional execution surfaces for fleet operations, shared workspaces and physical systems. Repository status is recorded in the [October snapshot](docs/data/catalog-2026-10-13.json).
+Additional execution surfaces for fleet operations, shared workspaces and physical systems. Repository status is recorded in the [October snapshot](data/catalog-2026-10-13.json).
 
 | Project | Shape | Best fit |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Related awesome lists and discovery sources
 
-**Checked 13 October 2026** · [Main index](README.md)
+**Checked 13 October 2026** · [Main index](../README.md)
 
 Use broad directories to find candidates, then read the official project source. A catalog's inclusion decision or star count is not evidence that an entry fits your workload.
 
@@ -23,7 +23,7 @@ Use broad lists for recall. Use this index's dated audit and upstream links for 
 
 ## Harness comparison sources
 
-[OpenBench](https://github.com/minghinmatthewlam/openbench), [d1-m4ss](https://github.com/d1-m4ss/harness-benchmark), [AmirinNS](https://github.com/AmirinNS/harness-bench), and [rajshah4](https://github.com/rajshah4/harness-benchmark) publish different comparison designs. The [research guide](docs/HARNESS-RESEARCH.md) records their controls and limitations.
+[OpenBench](https://github.com/minghinmatthewlam/openbench), [d1-m4ss](https://github.com/d1-m4ss/harness-benchmark), [AmirinNS](https://github.com/AmirinNS/harness-bench), and [rajshah4](https://github.com/rajshah4/harness-benchmark) publish different comparison designs. The [research guide](HARNESS-RESEARCH.md) records their controls and limitations.
 
 ## Inclusion checklist
 
@@ -33,4 +33,4 @@ Use broad lists for recall. Use this index's dated audit and upstream links for 
 4. License and deployment information, with missing facts marked unknown.
 5. A source and date for benchmark, pricing or adoption claims.
 
-Repository metadata is in the [October snapshot](docs/data/catalog-2026-10-13.json). Earlier discovery runs remain in the [August audit](docs/UPDATE-2026-08-02.md) and [July gap audit](docs/GAP-AUDIT-2026-07-14.md).
+Repository metadata is in the [October snapshot](data/catalog-2026-10-13.json). Earlier discovery runs remain in the [August audit](UPDATE-2026-08-02.md) and [July gap audit](GAP-AUDIT-2026-07-14.md).

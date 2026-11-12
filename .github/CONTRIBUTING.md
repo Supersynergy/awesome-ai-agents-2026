@@ -21,7 +21,7 @@ A result from another configuration is research evidence for that configuration.
 
 ## Artwork
 
-The current direction and reusable prompt are in [docs/assets/PREMIUM-PROMPT.md](docs/assets/PREMIUM-PROMPT.md). Add alt text, generation or source provenance, and a practical export size. Do not copy another project's mascot or imply that an illustration is a screenshot of a working product.
+The current direction and reusable prompt are in [docs/assets/PREMIUM-PROMPT.md](../docs/assets/PREMIUM-PROMPT.md). Add alt text, generation or source provenance, and a practical export size. Do not copy another project's mascot or imply that an illustration is a screenshot of a working product.
 
 ## Check before opening a pull request
 
@@ -35,4 +35,4 @@ Documentation edits do not require running the listed agents. If you add executa
 
 ## License
 
-This repository uses the [MIT license](LICENSE). Linked projects and model artifacts retain their own licenses and terms.
+This repository uses the [MIT license](../LICENSE). Linked projects and model artifacts retain their own licenses and terms.

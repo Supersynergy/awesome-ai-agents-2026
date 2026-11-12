@@ -1,6 +1,6 @@
 # Agent skills catalog
 
-**Checked 13 October 2026** · [Main index](README.md) · [Update audit](docs/UPDATE-2026-10-13.md)
+**Checked 13 October 2026** · [Main index](../README.md) · [Update audit](UPDATE-2026-10-13.md)
 
 Skills supply task-specific instructions and sometimes scripts or plugins. Use the upstream installation guide and inspect the exact skill before enabling it. A repository-wide listing does not endorse every instruction it contains.
 
@@ -35,4 +35,4 @@ Skills supply task-specific instructions and sometimes scripts or plugins. Use t
 - Keep publication, payments and other irreversible effects behind the required user authority.
 - Load detailed references when needed rather than placing every catalog in the agent context.
 
-The [metadata snapshot](docs/data/catalog-2026-10-13.json) contains current repository and license fields. Missing license metadata stays unknown; a detected top-level license does not establish the license of every included file.
+The [metadata snapshot](data/catalog-2026-10-13.json) contains current repository and license fields. Missing license metadata stays unknown; a detected top-level license does not establish the license of every included file.

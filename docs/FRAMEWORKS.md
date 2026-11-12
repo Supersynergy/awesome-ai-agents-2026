@@ -1,6 +1,6 @@
 # Agent frameworks: a decision guide
 
-**Checked 13 October 2026** · [Main index](README.md) · [Harness research](docs/HARNESS-RESEARCH.md)
+**Checked 13 October 2026** · [Main index](../README.md) · [Harness research](HARNESS-RESEARCH.md)
 
 Choose a framework by the state, tools and failure recovery your application needs. The shortlist below links to current upstream projects; it is not a performance or production-readiness ranking.
 
@@ -51,4 +51,4 @@ Read the current upstream quickstart before installing. Pin the package or commi
 4. Record total effort through verified completion, including retries and review.
 5. Add orchestration only when it resolves an observed failure or bottleneck.
 
-[GitHub metadata](docs/data/catalog-2026-10-13.json) records archive status, revisions and published release fields. Those fields establish repository state; they do not prove application behavior.
+[GitHub metadata](data/catalog-2026-10-13.json) records archive status, revisions and published release fields. Those fields establish repository state; they do not prove application behavior.

@@ -8,12 +8,12 @@ Get help with code, research or everyday tasks. Choose an agent by what it can d
 
 **[Find your agent →](#find-your-agent)**
 
-<img src="docs/assets/friendly-agent-centered.png" alt="Awesome AI Agents" width="850">
+<img src="docs/assets/friendly-agent-centered.png" alt="Awesome AI Agents" width="300" align="right">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-ECD7A7?style=flat-square)](LICENSE)
 [![Checked 13 October 2026](https://img.shields.io/badge/checked-13%20Oct%202026-0E5960?style=flat-square)](docs/UPDATE-2026-10-13.md)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-68D9C6?style=flat-square)](CONTRIBUTING.md)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-68D9C6?style=flat-square)](.github/CONTRIBUTING.md)
 
 </div>
 
@@ -66,7 +66,7 @@ Hosted agents may require an account or plan; local agents need installation and
 17. [Related awesome lists](#related-awesome-lists)
 18. [Contributing](#contributing)
 
-For builders: [Framework guide](FRAMEWORKS.md) · [Local model tools](LOCAL-LLM-TOOLS.md) · [Model setup](MODEL-RUNNING-GUIDE.md). For the visual direction: [Artwork prompt](docs/assets/PREMIUM-PROMPT.md).
+For builders: [Framework guide](docs/FRAMEWORKS.md) · [Local model tools](docs/LOCAL-LLM-TOOLS.md) · [Model setup](docs/MODEL-RUNNING-GUIDE.md). For the visual direction: [Artwork prompt](docs/assets/PREMIUM-PROMPT.md).
 
 ## Coding agents
 
@@ -423,7 +423,7 @@ The October research adds [OpenBench](https://github.com/minghinmatthewlam/openb
 
 ## Agent skills and repo context
 
-The complete current catalog is in [SKILLS.md](SKILLS.md). The table below keeps the main index scannable while preserving the important domain boundaries.
+The complete current catalog is in [SKILLS.md](docs/SKILLS.md). The table below keeps the main index scannable while preserving the important domain boundaries.
 
 <details>
 <summary><strong>📋 Show 16 entries</strong></summary>
@@ -761,10 +761,10 @@ Before adding an entry:
 4. Avoid unsupported market share, benchmark, pricing, or adoption claims.
 5. Add the date and source when a claim is time-sensitive.
 
-PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+PRs are welcome. See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## License
 
 MIT License — see [LICENSE](LICENSE).
 
-**Checked 13 October 2026** · [Contributing guide](CONTRIBUTING.md) · [Audit](docs/UPDATE-2026-10-13.md)
+**Checked 13 October 2026** · [Contributing guide](.github/CONTRIBUTING.md) · [Audit](docs/UPDATE-2026-10-13.md)

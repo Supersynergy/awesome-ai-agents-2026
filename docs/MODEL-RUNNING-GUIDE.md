@@ -1,6 +1,6 @@
 # Running a model for an agent
 
-**Checked 13 October 2026** · [Local model tools](LOCAL-LLM-TOOLS.md) · [Harness research](docs/HARNESS-RESEARCH.md)
+**Checked 13 October 2026** · [Local model tools](LOCAL-LLM-TOOLS.md) · [Harness research](HARNESS-RESEARCH.md)
 
 Choose an exact model artifact, establish a working runtime, then verify the harness connection. Model names and tags change quickly: use the [publisher's model card](https://huggingface.co/models) or [Ollama library](https://ollama.com/library) to resolve the current artifact.
 

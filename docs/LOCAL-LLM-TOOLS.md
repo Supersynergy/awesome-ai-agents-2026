@@ -1,6 +1,6 @@
 # Local model tools
 
-**Checked 13 October 2026** · [Main index](README.md) · [Model setup guide](MODEL-RUNNING-GUIDE.md)
+**Checked 13 October 2026** · [Main index](../README.md) · [Model setup guide](MODEL-RUNNING-GUIDE.md)
 
 A serving runtime runs the model. An agent harness supplies the tool loop, context and execution policy. Verify the connection between them on a small task before attempting autonomous work.
 
@@ -29,4 +29,4 @@ A serving runtime runs the model. An agent harness supplies the tool loop, conte
 
 Local operation can reduce network dependence. Privacy depends on endpoints, telemetry, tools and configuration; electricity, hardware, storage and maintenance still have costs. A local chat response alone does not prove safe tool execution.
 
-See the [model setup guide](MODEL-RUNNING-GUIDE.md) for resource planning and acceptance. Current open-source repository fields are in the [metadata snapshot](docs/data/catalog-2026-10-13.json).
+See the [model setup guide](MODEL-RUNNING-GUIDE.md) for resource planning and acceptance. Current open-source repository fields are in the [metadata snapshot](data/catalog-2026-10-13.json).
