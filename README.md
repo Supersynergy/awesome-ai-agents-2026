@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/friendly-agent-centered.png" alt="Awesome AI Agents" width="960">
+</p>
+
 <div align="center">
 
 # Awesome AI Agents · 2026
@@ -8,7 +12,6 @@ Get help with code, research or everyday tasks. Choose an agent by what it can d
 
 **[Find your agent →](#find-your-agent)**
 
-<img src="docs/assets/friendly-agent-centered.png" alt="Awesome AI Agents" width="300" align="right">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-ECD7A7?style=flat-square)](LICENSE)
