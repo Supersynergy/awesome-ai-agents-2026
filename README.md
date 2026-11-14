@@ -585,7 +585,7 @@ Track task success, tool success, latency, token cost, retries, human interventi
 
 ## Security and guardrails
 
-[NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) · [Guardrails AI](https://github.com/guardrails-ai/guardrails) · [Trail of Bits Skills](https://github.com/trailofbits/skills) · [Snyk Agent Scan](https://github.com/snyk/agent-scan) · [garak](https://github.com/NVIDIA/garak) · [Microsoft Presidio](https://github.com/data-privacy-stack/presidio)
+[NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) · [Guardrails AI](https://github.com/guardrails-ai/guardrails) · [Trail of Bits Skills](https://github.com/trailofbits/skills) · [Snyk Agent Scan](https://github.com/snyk/agent-scan) · [HOL Guard](https://github.com/hashgraph-online/hol-guard) · [garak](https://github.com/NVIDIA/garak) · [Microsoft Presidio](https://github.com/data-privacy-stack/presidio)
 
 Minimum controls: least-privilege tool scopes, server allowlists, validated tool output, sandboxing, egress limits, max steps, cost limits, audit logs, and human approval for irreversible actions.
 
