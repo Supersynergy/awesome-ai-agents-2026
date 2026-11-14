@@ -589,6 +589,8 @@ Track task success, tool success, latency, token cost, retries, human interventi
 
 Minimum controls: least-privilege tool scopes, server allowlists, validated tool output, sandboxing, egress limits, max steps, cost limits, audit logs, and human approval for irreversible actions.
 
+[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) — Local CLI and stdio MCP payment tools for developers who need owner-set payment limits, foreground approval where required, and operation receipts on macOS Apple Silicon.
+
 ## Voice agents
 
 [LiveKit Agents](https://github.com/livekit/agents) · [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) · [Vapi](https://vapi.ai/) · [Retell AI](https://www.retellai.com/) · [ElevenLabs Conversational AI](https://elevenlabs.io/conversational-ai)
